@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:1, server-id="rtsp://20.254.1.9", 上海联通专用
+https://raw.githubusercontent.com/Yonsm/IPTV/master/shanghai/unicom.m3u8
+#EXTINF:2, server-id="rtsp://124.75.34.37", 上海电信专用
+https://raw.githubusercontent.com/Yonsm/IPTV/master/shanghai/telecom.m3u8
+#EXTINF:3, server-id="http://192.168.1.1", 杭州电信专用
+https://raw.githubusercontent.com/Yonsm/IPTV/master/hangzhou/telecom.m3u8
+#EXTINF:4, server-id="http://183.207.248.71", 苏州移动
+https://raw.githubusercontent.com/Yonsm/IPTV/master/suzhou/mobile.m3u8
+#EXTINF:5, server-id="http://124.47.33.200", 其它
+https://raw.githubusercontent.com/Yonsm/IPTV/master/other/iplaytv.m3u8

@@ -1,7 +1,7 @@
 # IPTV
 IPTV Resources
 
-[杭州电信](https://raw.githubusercontent.com/Yonsm/IPTV/master/LOGO/hz.m3u8)
+[杭州电信](https://raw.githubusercontent.com/Yonsm/IPTV/master/hangzhou/telecom.m3u8)
 
 [EPG](http://epg.51zmt.top:8000)
 
