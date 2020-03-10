@@ -32,7 +32,7 @@ http://192.168.1.1:4000/rtp/233.50.201.124:5140
 http://192.168.1.1:4000/rtp/233.50.201.15:5140
 #EXTINF:16, group-title="央视" tvg-name="CCTV16", 央视NEWS
 http://192.168.1.1:4000/rtp/233.50.201.126:5140
-#EXTINF:17, group-title="央视" tvg-name="CCTV5+", 央视赛事 HD
+#EXTINF:17, group-title="央视" tvg-name="CCTV5+", 央视赛事
 http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
 #EXTINF:18, group-title="卫视", 凤凰资讯
 rtmp://ivi.bupt.edu.cn:1935/livetv/fhzx
