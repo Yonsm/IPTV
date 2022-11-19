@@ -1,143 +1,224 @@
 #EXTM3U
 
-#EXTINF:01, group-title="央视" tvg-name="CCTV1", 央视综合
+#EXTINF:001, group-title="央视" tvg-name="CCTV1", 央视1综合
 http://192.168.1.1:4000/rtp/233.50.201.118:5140
-#EXTINF:02, group-title="央视" tvg-name="CCTV2", 央视财经
+#EXTINF:002, group-title="央视" tvg-name="CCTV2", 央视2财经
 http://192.168.1.1:4000/rtp/233.50.201.119:5140
-#EXTINF:03, group-title="央视" tvg-name="CCTV3", 央视综艺
+#EXTINF:003, group-title="央视" tvg-name="CCTV3", 央视3综艺
 http://192.168.1.1:4000/rtp/233.50.201.196:5140
-#EXTINF:04, group-title="央视" tvg-name="CCTV4", 央视国际
+#EXTINF:004, group-title="央视" tvg-name="CCTV4", 央视4国际
 http://192.168.1.1:4000/rtp/233.50.201.4:5140
-#EXTINF:05, group-title="央视" tvg-name="CCTV5", 央视体育
+#EXTINF:005, group-title="央视" tvg-name="CCTV5", 央视5体育
 http://192.168.1.1:4000/rtp/233.50.201.197:5140
-#EXTINF:06, group-title="央视" tvg-name="CCTV6", 央视电影
+#EXTINF:006, group-title="央视" tvg-name="CCTV6", 央视6电影
 http://192.168.1.1:4000/rtp/233.50.201.198:5140
-#EXTINF:07, group-title="央视" tvg-name="CCTV7", 央视军事
+#EXTINF:007, group-title="央视" tvg-name="CCTV7", 央视7军事
 http://192.168.1.1:4000/rtp/233.50.201.120:5140
-#EXTINF:08, group-title="央视" tvg-name="CCTV8", 央视电视剧
+#EXTINF:008, group-title="央视" tvg-name="CCTV8", 央视8电视剧
 http://192.168.1.1:4000/rtp/233.50.201.199:5140
-#EXTINF:09, group-title="央视" tvg-name="CCTV9", 央视记录
+#EXTINF:009, group-title="央视" tvg-name="CCTV9", 央视9纪录
 http://192.168.1.1:4000/rtp/233.50.201.121:5140
-#EXTINF:10, group-title="央视" tvg-name="CCTV10", 央视科教
+#EXTINF:010, group-title="央视" tvg-name="CCTV10", 央视10科教
 http://192.168.1.1:4000/rtp/233.50.201.122:5140
-#EXTINF:11, group-title="央视" tvg-name="CCTV11", 央视戏曲
+#EXTINF:011, group-title="央视" tvg-name="CCTV11", 央视11戏曲
 http://192.168.1.1:4000/rtp/233.50.201.11:5140
-#EXTINF:12, group-title="央视" tvg-name="CCTV12", 央视社会
+#EXTINF:012, group-title="央视" tvg-name="CCTV12", 央视12社会
 http://192.168.1.1:4000/rtp/233.50.201.123:5140
-#EXTINF:13, group-title="央视" tvg-name="CCTV13", 央视新闻
-http://192.168.1.1:4000/rtp/233.50.201.13:5140
-#EXTINF:14, group-title="央视" tvg-name="CCTV14", 央视少儿
+#EXTINF:013, group-title="央视" tvg-name="CCTV13", 央视13新闻
+http://192.168.1.1:4000/rtp/233.50.201.246:5140
+#EXTINF:014, group-title="央视" tvg-name="CCTV14", 央视14少儿
 http://192.168.1.1:4000/rtp/233.50.201.124:5140
-#EXTINF:15, group-title="央视" tvg-name="CCTV15", 央视音乐
+#EXTINF:015, group-title="央视" tvg-name="CCTV15", 央视15音乐
 http://192.168.1.1:4000/rtp/233.50.201.15:5140
-#EXTINF:16, group-title="央视" tvg-name="CCTV16", 央视NEWS
-http://192.168.1.1:4000/rtp/233.50.201.126:5140
+#EXTINF:016, group-title="央视" tvg-name="CCTV16", 央视16奥林匹克
+http://192.168.1.1:4000/rtp/233.50.201.192:5140
+#EXTINF:017, group-title="央视" tvg-name="CCTV5+", 央视5+赛事
+http://192.168.1.1:4000/rtp/233.50.201.220:5140
 
-#EXTINF:17, group-title="央视" tvg-name="CCTV5+", 央视赛事
-http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
-#EXTINF:18, group-title="卫视", 凤凰资讯
-rtmp://ivi.bupt.edu.cn:1935/livetv/fhzx
-#EXTINF:19, group-title="卫视", 凤凰中文
-rtmp://ivi.bupt.edu.cn:1935/livetv/fhzw
-
-#EXTINF:20, group-title="卫视", 东南卫视
-http://192.168.1.1:4000/rtp/233.50.201.146:5140
-#EXTINF:21, group-title="卫视", 东方卫视
-http://192.168.1.1:4000/rtp/233.50.201.125:5140
-#EXTINF:22, group-title="卫视", 北京卫视
-http://192.168.1.1:4000/rtp/233.50.201.107:5140
-#EXTINF:23, group-title="卫视", 四川卫视
-http://192.168.1.1:4000/rtp/233.50.201.139:5140
-#EXTINF:24, group-title="卫视", 天津卫视
-http://192.168.1.1:4000/rtp/233.50.201.104:5140
-#EXTINF:25, group-title="卫视", 安徽卫视
-http://192.168.1.1:4000/rtp/233.50.201.113:5140
-#EXTINF:26, group-title="卫视", 山东卫视
-http://192.168.1.1:4000/rtp/233.50.201.105:5140
-#EXTINF:27, group-title="卫视", 广东卫视
-http://192.168.1.1:4000/rtp/233.50.201.102:5140
-#EXTINF:28, group-title="卫视", 江苏卫视
-http://192.168.1.1:4000/rtp/233.50.201.106:5140
-#EXTINF:29, group-title="卫视", 江西卫视
+#EXTINF:018, group-title="卫视", 江西卫视
 http://192.168.1.1:4000/rtp/233.50.201.145:5140
-#EXTINF:30, group-title="卫视", 河北卫视
-http://192.168.1.1:4000/rtp/233.50.201.140:5140
-#EXTINF:31, group-title="卫视", 河南卫视
-http://192.168.1.1:4000/rtp/233.50.201.144:5140
-#EXTINF:32, group-title="卫视", 深圳卫视
-http://192.168.1.1:4000/rtp/233.50.201.101:5140
-#EXTINF:33, group-title="卫视", 湖北卫视
-http://192.168.1.1:4000/rtp/233.50.201.114:5140
-#EXTINF:34, group-title="卫视", 湖南卫视
+#EXTINF:019, group-title="卫视", 湖南卫视
 http://192.168.1.1:4000/rtp/233.50.201.103:5140
-#EXTINF:35, group-title="卫视", 贵州卫视
+#EXTINF:020, group-title="卫视", 东方卫视
+http://192.168.1.1:4000/rtp/233.50.201.125:5140
+#EXTINF:021, group-title="卫视", 东南卫视
+http://192.168.1.1:4000/rtp/233.50.201.146:5140
+#EXTINF:022, group-title="卫视", 江苏卫视
+http://192.168.1.1:4000/rtp/233.50.201.106:5140
+#EXTINF:023, group-title="卫视", 广东卫视
+http://192.168.1.1:4000/rtp/233.50.201.102:5140
+#EXTINF:024, group-title="卫视", 深圳卫视
+http://192.168.1.1:4000/rtp/233.50.201.101:5140
+#EXTINF:025, group-title="卫视", 北京卫视
+http://192.168.1.1:4000/rtp/233.50.201.107:5140
+#EXTINF:026, group-title="卫视", 四川卫视
+http://192.168.1.1:4000/rtp/233.50.201.139:5140
+#EXTINF:027, group-title="卫视", 天津卫视
+http://192.168.1.1:4000/rtp/233.50.201.104:5140
+#EXTINF:028, group-title="卫视", 安徽卫视
+http://192.168.1.1:4000/rtp/233.50.201.113:5140
+#EXTINF:029, group-title="卫视", 山东卫视
+http://192.168.1.1:4000/rtp/233.50.201.105:5140
+#EXTINF:030, group-title="卫视", 河北卫视
+http://192.168.1.1:4000/rtp/233.50.201.140:5140
+#EXTINF:031, group-title="卫视", 河南卫视
+http://192.168.1.1:4000/rtp/233.50.201.144:5140
+#EXTINF:032, group-title="卫视", 湖北卫视
+http://192.168.1.1:4000/rtp/233.50.201.114:5140
+#EXTINF:033, group-title="卫视", 贵州卫视
 http://192.168.1.1:4000/rtp/233.50.201.142:5140
-#EXTINF:36, group-title="卫视", 辽宁卫视
+#EXTINF:034, group-title="卫视", 辽宁卫视
 http://192.168.1.1:4000/rtp/233.50.201.141:5140
-#EXTINF:37, group-title="卫视", 重庆卫视
+#EXTINF:035, group-title="卫视", 重庆卫视
 http://192.168.1.1:4000/rtp/233.50.201.143:5140
-#EXTINF:38, group-title="卫视", 黑龙江卫视
+#EXTINF:036, group-title="卫视", 黑龙江卫视
 http://192.168.1.1:4000/rtp/233.50.201.115:5140
-#EXTINF:39, group-title="卫视", 兵团卫视
-http://192.168.1.1:4000/rtp/233.50.201.172:5140
 
-#EXTINF:40, group-title="浙江", 浙江卫视
+#EXTINF:037, group-title="浙江", 浙江卫视
 http://192.168.1.1:4000/rtp/233.50.201.100:5140
-#EXTINF:41, group-title="浙江", 浙江少儿
-http://192.168.1.1:4000/rtp/233.50.201.138:5140
-#EXTINF:42, group-title="浙江", 浙江新闻
-http://192.168.1.1:4000/rtp/233.50.201.137:5140
-#EXTINF:43, group-title="浙江", 浙江经视
-http://192.168.1.1:4000/rtp/233.50.201.133:5140
-#EXTINF:44, group-title="浙江", 浙江民生
+#EXTINF:038, group-title="浙江", 浙江民生
 http://192.168.1.1:4000/rtp/233.50.201.136:5140
-#EXTINF:45, group-title="浙江", 浙江钱江
+#EXTINF:039, group-title="浙江", 浙江少儿
+http://192.168.1.1:4000/rtp/233.50.201.138:5140
+#EXTINF:040, group-title="浙江", 浙江新闻
+http://192.168.1.1:4000/rtp/233.50.201.137:5140
+#EXTINF:041, group-title="浙江", 浙江经视
+http://192.168.1.1:4000/rtp/233.50.201.133:5140
+#EXTINF:042, group-title="浙江", 浙江钱江
 http://192.168.1.1:4000/rtp/233.50.201.132:5140
-#EXTINF:46, group-title="浙江", 浙江影视
-http://192.168.1.1:4000/rtp/233.50.201.135:5140
-#EXTINF:47, group-title="浙江", 浙江教育
+#EXTINF:043, group-title="浙江", 浙江教育
 http://192.168.1.1:4000/rtp/233.50.201.134:5140
-#EXTINF:48, group-title="浙江", 浙江国际
-http://192.168.1.1:4000/rtp/233.50.201.226:5140
-#EXTINF:49, group-title="浙江", 新视觉
-http://192.168.1.1:4000/rtp/233.50.201.244:5140
 
-#EXTINF:50, group-title="专题", 健康养生
-http://192.168.1.1:4000/rtp/233.50.201.237:5140
-#EXTINF:51, group-title="专题", 动作影院
-http://192.168.1.1:4000/rtp/233.50.201.232:5140
-#EXTINF:52, group-title="专题", 华语影院
-http://192.168.1.1:4000/rtp/233.50.201.240:5140
-#EXTINF:53, group-title="专题", 古装剧场
-http://192.168.1.1:4000/rtp/233.50.201.236:5140
-#EXTINF:54, group-title="专题", 情感剧场
-http://192.168.1.1:4000/rtp/233.50.201.242:5140
-#EXTINF:55, group-title="专题", 欧美影院
-http://192.168.1.1:4000/rtp/233.50.201.230:5140
-#EXTINF:56, group-title="专题", 热门综艺
-http://192.168.1.1:4000/rtp/233.50.201.233:5140
-#EXTINF:57, group-title="专题", 环球电影
-http://192.168.1.1:4000/rtp/233.50.201.231:5140
-#EXTINF:58, group-title="专题", 白金剧场
+#EXTINF:044, group-title="杭州", 杭州1综合
+http://192.168.1.1:4000/rtp/233.50.201.173:5140
+#EXTINF:045, group-title="杭州", 杭州2明珠
+http://192.168.1.1:4000/rtp/233.50.201.174:5140
+#EXTINF:046, group-title="杭州", 杭州3生活
+http://192.168.1.1:4000/rtp/233.50.201.175:5140
+#EXTINF:047, group-title="杭州", 杭州4影视
+http://192.168.1.1:4000/rtp/233.50.201.176:5140
+#EXTINF:048, group-title="杭州", 杭州5青少
+http://192.168.1.1:4000/rtp/233.50.201.177:5140
+#EXTINF:049, group-title="杭州", 杭州导视
+http://192.168.1.1:4000/rtp/233.50.201.182:5140
+#EXTINF:050, group-title="杭州", 余杭新闻
+http://192.168.1.1:4000/rtp/233.50.201.159:5140
+
+#EXTINF:051, group-title="地市", 宁波1频道
+http://192.168.1.1:4000/rtp/233.50.201.168:5140
+#EXTINF:052, group-title="地市", 宁波2频道
+http://192.168.1.1:4000/rtp/233.50.201.178:5140
+#EXTINF:053, group-title="地市", 宁波3频道
+http://192.168.1.1:4000/rtp/233.50.201.179:5140
+#EXTINF:054, group-title="地市", 宁波4频道
+http://192.168.1.1:4000/rtp/233.50.201.180:5140
+#EXTINF:055, group-title="地市", 宁波5频道
+http://192.168.1.1:4000/rtp/233.50.201.181:5140
+#EXTINF:056, group-title="地市", 温州新闻
+http://192.168.1.1:4000/rtp/233.50.201.87:5140
+#EXTINF:057, group-title="地市", 湖州新闻
+http://192.168.1.1:4000/rtp/233.50.201.158:5140
+#EXTINF:058, group-title="地市", 金华新闻
+http://192.168.1.1:4000/rtp/233.50.201.161:5140
+#EXTINF:059, group-title="地市", 丽水新闻
+http://192.168.1.1:4000/rtp/233.50.201.162:5140
+#EXTINF:060, group-title="地市", 嘉兴新闻
+http://192.168.1.1:4000/rtp/233.50.201.163:5140
+#EXTINF:061, group-title="地市", 桐乡新闻
+http://192.168.1.1:4000/rtp/233.50.201.169:5140
+
+#EXTINF:062, group-title="影视", 欢笑剧场
+http://192.168.1.1:4000/rtp/233.50.201.189:5140
+#EXTINF:063, group-title="影视", 白金剧场
 http://192.168.1.1:4000/rtp/233.50.201.234:5140
-#EXTINF:59, group-title="专题", 谍战剧场
+#EXTINF:064, group-title="影视", 谍战剧场
 http://192.168.1.1:4000/rtp/233.50.201.235:5140
-#EXTINF:60, group-title="专题", 首映电影
-http://192.168.1.1:4000/rtp/233.50.201.239:5140
-#EXTINF:61, group-title="专题", 黄金剧场
+#EXTINF:065, group-title="影视", 古装剧场
+http://192.168.1.1:4000/rtp/233.50.201.236:5140
+#EXTINF:066, group-title="影视", 都市剧场
+http://192.168.1.1:4000/rtp/233.50.201.190:5140
+#EXTINF:067, group-title="影视", 黄金剧场
 http://192.168.1.1:4000/rtp/233.50.201.241:5140
-
-#EXTINF:62, group-title="其它", 导视频道
-http://192.168.1.1:4000/rtp/233.50.201.20:5140
-#EXTINF:63, group-title="其它", 精彩赛事
-http://192.168.1.1:4000/rtp/233.50.201.108:5140
-#EXTINF:64, group-title="其它", 超清测试
-http://192.168.1.1:4000/rtp/233.50.201.243:5140
-#EXTINF:65, group-title="其它", 高清娱乐
+#EXTINF:068, group-title="影视", 情感剧场
+http://192.168.1.1:4000/rtp/233.50.201.242:5140
+#EXTINF:069, group-title="影视", 高分剧场
+http://192.168.1.1:4000/rtp/233.50.201.253:5140
+#EXTINF:070, group-title="影视", 院线大片
+http://192.168.1.1:4000/rtp/233.50.201.229:5140
+#EXTINF:071, group-title="影视", 首映电影
+http://192.168.1.1:4000/rtp/233.50.201.239:5140
+#EXTINF:072, group-title="影视", 喜剧电影
+http://192.168.1.1:4000/rtp/233.50.201.249:5140
+#EXTINF:073, group-title="影视", 华语影院
+http://192.168.1.1:4000/rtp/233.50.201.240:5140
+#EXTINF:074, group-title="影视", 环球电影
+http://192.168.1.1:4000/rtp/233.50.201.231:5140
+#EXTINF:075, group-title="影视", 欧美影院
+http://192.168.1.1:4000/rtp/233.50.201.230:5140
+#EXTINF:076, group-title="影视", 好莱坞电影
+http://192.168.1.1:4000/rtp/233.50.201.228:5140
+#EXTINF:077, group-title="影视", 动作影院
+http://192.168.1.1:4000/rtp/233.50.201.232:5140
+#EXTINF:078, group-title="影视", 高清娱乐
 http://192.168.1.1:4000/rtp/233.50.201.116:5140
-#EXTINF:66, group-title="其它", 探索纪录
+
+#EXTINF:079, group-title="漫综", 动漫秀场
+http://192.168.1.1:4000/rtp/233.50.201.184:5140
+#EXTINF:080, group-title="漫综", 咕噜动画
+http://192.168.1.1:4000/rtp/233.50.201.238:5140
+#EXTINF:081, group-title="漫综", 动漫新番
+http://192.168.1.1:4000/rtp/233.50.201.252:5140
+#EXTINF:082, group-title="漫综", 热门综艺
+http://192.168.1.1:4000/rtp/233.50.201.233:5140
+#EXTINF:083, group-title="漫综", 芒果热综
+http://192.168.1.1:4000/rtp/233.50.201.251:5140
+
+#EXTINF:084, group-title="专题", 游戏风云
+http://192.168.1.1:4000/rtp/233.50.201.183:5140
+#EXTINF:085, group-title="专题", 生活时尚
+http://192.168.1.1:4000/rtp/233.50.201.187:5140
+#EXTINF:086, group-title="专题", 茶频道
+http://192.168.1.1:4000/rtp/233.50.201.188:5140
+#EXTINF:087, group-title="专题", 美味厨房
+http://192.168.1.1:4000/rtp/233.50.201.150:5140
+#EXTINF:088, group-title="专题", 健康养生
+http://192.168.1.1:4000/rtp/233.50.201.237:5140
+#EXTINF:089, group-title="专题", 快乐垂钓
+http://192.168.1.1:4000/rtp/233.50.201.109:5140
+#EXTINF:090, group-title="专题", 乐游频道
+http://192.168.1.1:4000/rtp/233.50.201.185:5140
+#EXTINF:091, group-title="专题", 金色学堂
+http://192.168.1.1:4000/rtp/233.50.201.186:5140
+#EXTINF:092, group-title="专题", 探索解密
+http://192.168.1.1:4000/rtp/233.50.201.254:5140
+#EXTINF:093, group-title="专题", 探索纪录
 http://192.168.1.1:4000/rtp/233.50.201.117:5140
-#EXTINF:67, group-title="其它", 直播室1
-http://192.168.1.1:4000/rtp/233.50.201.201:5140
-#EXTINF:68, group-title="其它", 直播室2
-http://192.168.1.1:4000/rtp/233.50.201.205:5140
+#EXTINF:094, group-title="专题", 法治天地
+http://192.168.1.1:4000/rtp/233.50.201.191:5140
+#EXTINF:095, group-title="专题", 第二课堂
+http://192.168.1.1:4000/rtp/233.50.201.245:5140
+#EXTINF:096, group-title="专题", 财经讲堂
+http://192.168.1.1:4000/rtp/233.50.201.227:5140
+#EXTINF:097, group-title="专题", 汽车频道
+http://192.168.1.1:4000/rtp/233.50.201.224:5140
+#EXTINF:098, group-title="专题", 电视购物
+http://192.168.1.1:4000/rtp/233.50.201.248:5140
+
+#EXTINF:099, group-title="其它", 中国环球
+http://192.168.1.1:4000/rtp/233.50.201.126:5140
+#EXTINF:100, group-title="其它", 中国教育
+http://192.168.1.1:4000/rtp/233.50.201.75:5140
+#EXTINF:101, group-title="其它", 空中课堂
+http://192.168.1.1:4000/rtp/233.50.201.172:5140
+#EXTINF:102, group-title="其它", 新视觉
+http://192.168.1.1:4000/rtp/233.50.201.244:5140
+#EXTINF:103, group-title="其它", 超清测试
+http://192.168.1.1:4000/rtp/233.50.201.243:5140
+#EXTINF:104, group-title="其它", 监控直播
+http://192.168.1.1:4000/rtp/233.50.201.193:5140
+#EXTINF:105, group-title="其它", 导视频道
+http://192.168.1.1:4000/rtp/233.50.201.226:5140
+#EXTINF:106, group-title="其它", 影视指南
+http://192.168.1.1:4000/rtp/233.50.201.108:5140
+#EXTINF:107, group-title="其它", BestTV
+http://192.168.1.1:4000/rtp/233.50.201.207:5140
