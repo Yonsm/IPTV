@@ -5,7 +5,9 @@ https://raw.githubusercontent.com/Yonsm/IPTV/master/shanghai/unicom.m3u8
 https://raw.githubusercontent.com/Yonsm/IPTV/master/shanghai/telecom.m3u8
 #EXTINF:3, server-id="http://192.168.1.1", 杭州电信专用
 https://raw.githubusercontent.com/Yonsm/IPTV/master/hangzhou/telecom.m3u8
-#EXTINF:4, server-id="http://183.207.248.71", 苏州移动
+#EXTINF:4, server-id="rtsp://115.153.245.70", 江西电信专用
+https://raw.githubusercontent.com/Yonsm/IPTV/master/jiangxi/telecom.m3u8
+#EXTINF:5, server-id="http://183.207.248.71", 苏州移动专用
 https://raw.githubusercontent.com/Yonsm/IPTV/master/suzhou/mobile.m3u8
-#EXTINF:5, server-id="http://124.47.33.200", 其它
+#EXTINF:6, server-id="http://124.47.33.200", 其它
 https://raw.githubusercontent.com/Yonsm/IPTV/master/other/iplaytv.m3u8
