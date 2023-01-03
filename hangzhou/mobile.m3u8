@@ -1,92 +1,92 @@
 
 #EXTM3U
 
-#EXTINF:1, group-title="卫视", CCTV1
+#EXTINF:001, group-title="央视" tvg-name="CCTV1", 央视1综合
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228318/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:2, group-title="卫视", CCTV1
+#EXTINF:001, group-title="央视" tvg-name="CCTV1", 央视1综合
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228809/index.m3u8?fmt=ts2hls
-#EXTINF:3, group-title="卫视", CCTV1
+#EXTINF:001, group-title="央视" tvg-name="CCTV1", 央视1综合
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228956/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:4, group-title="卫视", CCTV1
+#EXTINF:001, group-title="央视" tvg-name="CCTV1", 央视1综合
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230713/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:5, group-title="卫视", CCTV1
+#EXTINF:001, group-title="央视" tvg-name="CCTV1", 央视1综合
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232672/index.m3u8?fmt=ts2hls
-#EXTINF:6, group-title="卫视", CCTV2
+#EXTINF:002, group-title="央视" tvg-name="CCTV2", 央视2财经
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228348/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:7, group-title="卫视", CCTV2
+#EXTINF:002, group-title="央视" tvg-name="CCTV2", 央视2财经
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230716/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:8, group-title="卫视", CCTV3
+#EXTINF:003, group-title="央视" tvg-name="CCTV3", 央视3综艺
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229878/index.m3u8?fmt=ts2hls
-#EXTINF:9, group-title="卫视", CCTV3
+#EXTINF:003, group-title="央视" tvg-name="CCTV3", 央视3综艺
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230740/index.m3u8?fmt=ts2hls
-#EXTINF:10, group-title="卫视", CCTV3
+#EXTINF:003, group-title="央视" tvg-name="CCTV3", 央视3综艺
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232596/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:11, group-title="卫视", CCTV3
+#EXTINF:003, group-title="央视" tvg-name="CCTV3", 央视3综艺
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232660/index.m3u8?fmt=ts2hls
-#EXTINF:12, group-title="卫视", CCTV4
+#EXTINF:004, group-title="央视" tvg-name="CCTV4", 央视4国际
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229749/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:13, group-title="卫视", CCTV4K
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229373/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:14, group-title="卫视", CCTV5+
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228822/index.m3u8?fmt=ts2hls
-#EXTINF:15, group-title="卫视", CCTV5+
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229684/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:16, group-title="卫视", CCTV5
+#EXTINF:005, group-title="央视" tvg-name="CCTV5", 央视5体育
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228645/index.m3u8?fmt=ts2hls
-#EXTINF:17, group-title="卫视", CCTV5
+#EXTINF:005, group-title="央视" tvg-name="CCTV5", 央视5体育
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228965/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:18, group-title="卫视", CCTV5
+#EXTINF:005, group-title="央视" tvg-name="CCTV5", 央视5体育
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229687/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:19, group-title="卫视", CCTV5
+#EXTINF:005, group-title="央视" tvg-name="CCTV5", 央视5体育
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232648/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:20, group-title="卫视", CCTV5
+#EXTINF:005, group-title="央视" tvg-name="CCTV5", 央视5体育
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232669/index.m3u8?fmt=ts2hls
-#EXTINF:21, group-title="卫视", CCTV6
+#EXTINF:006, group-title="央视" tvg-name="CCTV6", 央视6电影
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229870/index.m3u8?fmt=ts2hls
-#EXTINF:22, group-title="卫视", CCTV6
+#EXTINF:006, group-title="央视" tvg-name="CCTV6", 央视6电影
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230685/index.m3u8?fmt=ts2hls
-#EXTINF:23, group-title="卫视", CCTV6
+#EXTINF:006, group-title="央视" tvg-name="CCTV6", 央视6电影
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232599/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:24, group-title="卫视", CCTV6
+#EXTINF:006, group-title="央视" tvg-name="CCTV6", 央视6电影
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232663/index.m3u8?fmt=ts2hls
-#EXTINF:25, group-title="卫视", CCTV7
+#EXTINF:007, group-title="央视" tvg-name="CCTV7", 央视7军事
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228330/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:26, group-title="卫视", CCTV8
+#EXTINF:008, group-title="央视" tvg-name="CCTV8", 央视8电视剧
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232635/index.m3u8?fmt=ts2hls
-#EXTINF:27, group-title="卫视", CCTV8
+#EXTINF:008, group-title="央视" tvg-name="CCTV8", 央视8电视剧
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232645/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:28, group-title="卫视", CCTV9
+#EXTINF:009, group-title="央视" tvg-name="CCTV9", 央视9纪录
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228342/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:29, group-title="卫视", CCTV10
+#EXTINF:010, group-title="央视" tvg-name="CCTV10", 央视10科教
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228327/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:30, group-title="卫视", CCTV11
+#EXTINF:011, group-title="央视" tvg-name="CCTV11", 央视11戏曲
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232449/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:31, group-title="卫视", CCTV12
+#EXTINF:012, group-title="央视" tvg-name="CCTV12", 央视12社会
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228312/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:32, group-title="卫视", CCTV13
+#EXTINF:013, group-title="央视" tvg-name="CCTV13", 央视13新闻
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230877/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:33, group-title="卫视", CCTV13
+#EXTINF:013, group-title="央视" tvg-name="CCTV13", 央视13新闻
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231193/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:34, group-title="卫视", CCTV14
+#EXTINF:014, group-title="央视" tvg-name="CCTV14", 央视14少儿
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228335/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:35, group-title="卫视", CCTV14
+#EXTINF:014, group-title="央视" tvg-name="CCTV14", 央视14少儿
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230701/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:36, group-title="卫视", CCTV15
+#EXTINF:015, group-title="央视" tvg-name="CCTV15", 央视15音乐
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230658/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:37, group-title="卫视", CCTV15
+#EXTINF:015, group-title="央视" tvg-name="CCTV15", 央视15音乐
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232504/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:38, group-title="卫视", CCTV16 4K
+#EXTINF:016, group-title="央视" tvg-name="CCTV16", 央视16奥林匹克4K
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230373/index.m3u8?fmt=ts2hls
-#EXTINF:39, group-title="卫视", CCTV16
+#EXTINF:016, group-title="央视" tvg-name="CCTV16", 央视16奥林匹克
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232608/index.m3u8?fmt=ts2hls
-#EXTINF:40, group-title="卫视", CCTV16
+#EXTINF:016, group-title="央视" tvg-name="CCTV16", 央视16奥林匹克
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232651/index.m3u8?fmt=ts2hls
-#EXTINF:41, group-title="卫视", CCTV16
+#EXTINF:016, group-title="央视" tvg-name="CCTV16", 央视16奥林匹克
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232705/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:42, group-title="卫视", CCTV17
+#EXTINF:017, group-title="央视", 央视17
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229765/index.m3u8?fmt=ts2hls
-#EXTINF:43, group-title="卫视", CCTV高尔夫·网球
+#EXTINF:017, group-title="央视", 央视高尔夫·网球
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232630/42330389.smil/index.m3u8?fmt=ts2hls
+#EXTINF:017, group-title="央视" tvg-name="CCTV4K", 央视4K
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229373/42330389.smil/index.m3u8?fmt=ts2hls
+#EXTINF:017, group-title="央视" tvg-name="CCTV5+", 央视5+赛事
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228822/index.m3u8?fmt=ts2hls
+#EXTINF:017, group-title="央视" tvg-name="CCTV5+", 央视5+赛事
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229684/42330389.smil/index.m3u8?fmt=ts2hls
 
 #EXTINF:44, group-title="卫视", 东南卫视
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231261/42330389.smil/index.m3u8?fmt=ts2hls
