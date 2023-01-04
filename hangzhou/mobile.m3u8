@@ -34,7 +34,7 @@ http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230658/42330389.smi
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232705/42330389.smil/index.m3u8?fmt=ts2hls
 #EXTINF:17, group-title="央视", 央视高尔夫·网球
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232630/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:18, group-title="央视" tvg-name="CCTV4K", 央视4K
+#EXTINF:18, group-title="央视" tvg-name="CCTV4K", 央视超高清4K
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229373/42330389.smil/index.m3u8?fmt=ts2hls
 #EXTINF:19, group-title="央视" tvg-name="CCTV5+", 央视5+赛事
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229684/42330389.smil/index.m3u8?fmt=ts2hls
@@ -102,3 +102,5 @@ http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230019/42330389.smi
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229311/42330389.smil/index.m3u8?fmt=ts2hls
 #EXTINF:50, group-title="专题", 都市剧场
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229280/42330389.smil/index.m3u8?fmt=ts2hls
+#EXTINF:51, group-title="专题", 求索记录4K
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232776/42330389.smil/index.m3u8?fmt=ts2hls
