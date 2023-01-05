@@ -1,106 +1,255 @@
 #EXTM3U
 
 #EXTINF:01, group-title="央视" tvg-name="CCTV1", 央视1综合
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228318/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228318/42329859.smil/index.m3u8?fmt=ts2hls
 #EXTINF:02, group-title="央视" tvg-name="CCTV2", 央视2财经
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228348/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228348/42329899.smil/index.m3u8?fmt=ts2hls
 #EXTINF:03, group-title="央视" tvg-name="CCTV3", 央视3综艺
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232596/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232596/341734363.smil/index.m3u8?fmt=ts2hls
 #EXTINF:04, group-title="央视" tvg-name="CCTV4", 央视4国际
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229749/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229749/114276458.smil/index.m3u8?fmt=ts2hls
 #EXTINF:05, group-title="央视" tvg-name="CCTV5", 央视5体育
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229687/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232648/341733164.smil/index.m3u8?fmt=ts2hls
 #EXTINF:06, group-title="央视" tvg-name="CCTV6", 央视6电影
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232599/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232599/341734307.smil/index.m3u8?fmt=ts2hls
 #EXTINF:07, group-title="央视" tvg-name="CCTV7", 央视7军事
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228330/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228330/42329865.smil/index.m3u8?fmt=ts2hls
 #EXTINF:08, group-title="央视" tvg-name="CCTV8", 央视8电视剧
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232645/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232645/341734473.smil/index.m3u8?fmt=ts2hls
 #EXTINF:09, group-title="央视" tvg-name="CCTV9", 央视9纪录
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228342/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228342/42329996.smil/index.m3u8?fmt=ts2hls
 #EXTINF:10, group-title="央视" tvg-name="CCTV10", 央视10科教
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228327/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228327/42329895.smil/index.m3u8?fmt=ts2hls
 #EXTINF:11, group-title="央视" tvg-name="CCTV11", 央视11戏曲
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232449/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232449/312776616.smil/index.m3u8?fmt=ts2hls
 #EXTINF:12, group-title="央视" tvg-name="CCTV12", 央视12社会
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228312/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228312/42329831.smil/index.m3u8?fmt=ts2hls
 #EXTINF:13, group-title="央视" tvg-name="CCTV13", 央视13新闻
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230877/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231193/224624642.smil/index.m3u8?fmt=ts2hls
 #EXTINF:14, group-title="央视" tvg-name="CCTV14", 央视14少儿
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228335/42330389.smil/index.m3u8?fmt=ts2hls
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228335/42329999.smil/index.m3u8?fmt=ts2hls
 #EXTINF:15, group-title="央视" tvg-name="CCTV15", 央视15音乐
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230658/42330389.smil/index.m3u8?fmt=ts2hls
 #EXTINF:16, group-title="央视" tvg-name="CCTV16", 央视16奥林匹克
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232705/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:17, group-title="央视", 央视高尔夫·网球
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232630/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:18, group-title="央视" tvg-name="CCTV4K", 央视超高清4K
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229373/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:19, group-title="央视" tvg-name="CCTV5+", 央视5+赛事
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232705/382070497.smil/index.m3u8?fmt=ts2hls
+#EXTINF:17, group-title="央视", 央视17农业农村
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229762/117317448.smil/index.m3u8?fmt=ts2hls
+#EXTINF:18, group-title="央视" tvg-name="CGTN", 中国国际电视台
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228416/44198373.smil/index.m3u8?fmt=ts2hls
+#EXTINF:25, group-title="央视" tvg-name="CCTV5+", 央视5+赛事
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229684/42330389.smil/index.m3u8?fmt=ts2hls
 
-#EXTINF:20, group-title="卫视", 东南卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231261/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:21, group-title="卫视", 东方卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228354/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:22, group-title="卫视", 北京卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228321/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:23, group-title="卫视", 吉林卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231289/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:24, group-title="卫视", 四川卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231298/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:25, group-title="卫视", 天津卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228320/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:26, group-title="卫视", 安徽卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228332/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:27, group-title="卫视", 安徽卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230707/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:28, group-title="卫视", 山东卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228308/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:29, group-title="卫视", 广东卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228329/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:30, group-title="卫视", 广西卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231292/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:31, group-title="卫视", 江苏卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228351/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:32, group-title="卫视", 江西卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230667/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:33, group-title="卫视", 河北卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231270/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:34, group-title="卫视", 河南卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231264/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:35, group-title="卫视", 浙江卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228324/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:36, group-title="卫视", 海南卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232687/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:37, group-title="卫视", 深圳卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228314/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:38, group-title="卫视", 湖北卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228357/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:39, group-title="卫视", 湖南卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228336/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:40, group-title="卫视", 贵州卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231267/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:41, group-title="卫视", 辽宁卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230692/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:42, group-title="卫视", 重庆卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232642/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:43, group-title="卫视", 黑龙江卫视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228302/42330389.smil/index.m3u8?fmt=ts2hls
+#EXTINF:26, group-title="浙江", 浙江钱江都市
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221233005/396328815.smil/index.m3u8?fmt=ts2hls
+#EXTINF:27, group-title="浙江", 浙江经济生活
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221233008/396328971.smil/index.m3u8?fmt=ts2hls
+#EXTINF:28, group-title="浙江", 浙江教科影视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221233002/396328931.smil/index.m3u8?fmt=ts2hls
+#EXTINF:29, group-title="浙江", 浙江民生休闲
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232996/396328848.smil/index.m3u8?fmt=ts2hls
+#EXTINF:30, group-title="浙江", 浙江少儿频道
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221233011/396328929.smil/index.m3u8?fmt=ts2hls
+#EXTINF:31, group-title="浙江", 浙江公共新闻
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221233052/396328936.smil/index.m3u8?fmt=ts2hls
 
-#EXTINF:44, group-title="专题", Y+频道
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229999/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:45, group-title="专题", 爱喜剧
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230022/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:46, group-title="专题", 爱浪漫
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230005/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:47, group-title="专题", 爱科幻
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230025/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:48, group-title="专题", 爱院线
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230019/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:49, group-title="专题", 百视通4K
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229311/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:50, group-title="专题", 都市剧场
+#EXTINF:19, group-title="卫视", 浙江卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228324/42329891.smil/index.m3u8?fmt=ts2hls
+#EXTINF:20, group-title="卫视", 湖南卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228336/42329937.smil/index.m3u8?fmt=ts2hls
+#EXTINF:21, group-title="卫视", 东方卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228354/42329929.smil/index.m3u8?fmt=ts2hls
+#EXTINF:22, group-title="卫视", 江苏卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228351/42329921.smil/index.m3u8?fmt=ts2hls
+#EXTINF:23, group-title="卫视", 北京卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228321/42329925.smil/index.m3u8?fmt=ts2hls
+#EXTINF:24, group-title="卫视", 深圳卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228314/42329941.smil/index.m3u8?fmt=ts2hls
+
+#EXTINF:43, group-title="卫视", 广东卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228329/42329945.smil/index.m3u8?fmt=ts2hls
+#EXTINF:44, group-title="卫视", 天津卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228320/42329956.smil/index.m3u8?fmt=ts2hls
+#EXTINF:45, group-title="卫视", 山东卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228308/42329957.smil/index.m3u8?fmt=ts2hls
+#EXTINF:46, group-title="卫视", 湖北卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228357/42329887.smil/index.m3u8?fmt=ts2hls
+#EXTINF:47, group-title="卫视", 黑龙江卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228302/42329917.smil/index.m3u8?fmt=ts2hls
+#EXTINF:48, group-title="卫视", 重庆卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232642/341733166.smil/index.m3u8?fmt=ts2hls
+#EXTINF:49, group-title="卫视", 辽宁卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228317/42329987.smil/index.m3u8?fmt=ts2hls
+#EXTINF:50, group-title="卫视", 安徽卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228332/42329873.smil/index.m3u8?fmt=ts2hls
+#EXTINF:51, group-title="卫视", 江西卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228293/42329843.smil/index.m3u8?fmt=ts2hls
+#EXTINF:52, group-title="卫视", 四川卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231298/236035585.smil/index.m3u8?fmt=ts2hls
+#EXTINF:53, group-title="卫视", 东南卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231261/235855022.smil/index.m3u8?fmt=ts2hls
+#EXTINF:54, group-title="卫视", 广西卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231292/235855143.smil/index.m3u8?fmt=ts2hls
+#EXTINF:55, group-title="卫视", 河北卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231270/235855194.smil/index.m3u8?fmt=ts2hls
+#EXTINF:56, group-title="卫视", 山西卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228291/42329192.smil/index.m3u8?fmt=ts2hls
+#EXTINF:57, group-title="卫视", 陕西卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228272/42329208.smil/index.m3u8?fmt=ts2hls
+#EXTINF:58, group-title="卫视", 兵团卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228419/44198443.smil/index.m3u8?fmt=ts2hls
+#EXTINF:59, group-title="卫视", 贵州卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231267/235855087.smil/index.m3u8?fmt=ts2hls
+#EXTINF:60, group-title="卫视", 青海卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228287/42329203.smil/index.m3u8?fmt=ts2hls
+#EXTINF:61, group-title="卫视", 河南卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231264/235855023.smil/index.m3u8?fmt=ts2hls
+#EXTINF:62, group-title="卫视", 宁夏卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228284/42329159.smil/index.m3u8?fmt=ts2hls
+#EXTINF:63, group-title="卫视", 甘肃卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228288/42329156.smil/index.m3u8?fmt=ts2hls
+#EXTINF:64, group-title="卫视", 吉林卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231289/235855024.smil/index.m3u8?fmt=ts2hls
+#EXTINF:65, group-title="卫视", 海南卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232687/376173485.smil/index.m3u8?fmt=ts2hls
+#EXTINF:66, group-title="卫视", 内蒙古卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228339/42329883.smil/index.m3u8?fmt=ts2hls
+#EXTINF:67, group-title="卫视", 新疆卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228326/42329879.smil/index.m3u8?fmt=ts2hls
+#EXTINF:68, group-title="卫视", 西藏卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228345/42330007.smil/index.m3u8?fmt=ts2hls
+#EXTINF:69, group-title="卫视", 云南卫视
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232675/372759824.smil/index.m3u8?fmt=ts2hls
+
+#EXTINF:32, group-title="动漫", 卡酷动画
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228375/42613213.smil/index.m3u8?fmt=ts2hls
+#EXTINF:33, group-title="动漫", 优漫卡通
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228378/42613464.smil/index.m3u8?fmt=ts2hls
+#EXTINF:34, group-title="动漫", 金鹰卡通
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228362/42613591.smil/index.m3u8?fmt=ts2hls
+#EXTINF:35, group-title="动漫", 少儿动漫
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228387/42613922.smil/index.m3u8?fmt=ts2hls
+#EXTINF:36, group-title="动漫", 嘉佳卡通
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228593/59463357.smil/index.m3u8?fmt=ts2hls
+
+#EXTINF:37, group-title="专题", 欧美影院
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228384/42613784.smil/index.m3u8?fmt=ts2hls
+#EXTINF:38, group-title="专题", 亚洲影院
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228365/42613673.smil/index.m3u8?fmt=ts2hls
+#EXTINF:39, group-title="专题", 探索纪实
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231385/247557772.smil/index.m3u8?fmt=ts2hls
+#EXTINF:40, group-title="专题", 精品剧场
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231330/247557658.smil/index.m3u8?fmt=ts2hls
+#EXTINF:42, group-title="专题", 优优宝贝
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229380/78052125.smil/index.m3u8?fmt=ts2hls
+
+#EXTINF:70, group-title="专题", 中国教育
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228285/42329224.smil/index.m3u8?fmt=ts2hls
+#EXTINF:71, group-title="专题", 爱美食
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230115/index.m3u8
+#EXTINF:72, group-title="专题", 爱旅行
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230052/index.m3u8
+#EXTINF:73, group-title="专题", 漫游世界
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228581/59463297.smil/index.m3u8?fmt=ts2hls
+#EXTINF:75, group-title="专题", 高清娱乐
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228575/59463282.smil/index.m3u8?fmt=ts2hls
+#EXTINF:76, group-title="专题", 电子竞技
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228572/59463316.smil/index.m3u8?fmt=ts2hls
+#EXTINF:77, group-title="专题", 炫动卡通
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229065/index.m3u8
+#EXTINF:78, group-title="专题", 山东教育
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228999/index.m3u8
+#EXTINF:79, group-title="专题", 动作电影
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229672/index.m3u8
+#EXTINF:80, group-title="专题", 黑莓少儿
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229675/index.m3u8
+#EXTINF:81, group-title="专题", 金牌综艺
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229704/index.m3u8
+#EXTINF:82, group-title="专题", 惊悚悬疑
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229701/index.m3u8
+#EXTINF:83, group-title="专题", 明星大片
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229660/index.m3u8
+#EXTINF:84, group-title="专题", 军事评论
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229716/index.m3u8
+#EXTINF:85, group-title="专题", 古装剧场
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229710/index.m3u8
+#EXTINF:86, group-title="专题", 爱情喜剧
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229731/index.m3u8
+#EXTINF:88, group-title="专题", 精品大剧
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229713/index.m3u8
+#EXTINF:89, group-title="专题", 精品纪录
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229707/index.m3u8
+#EXTINF:90, group-title="专题", 爱赛车
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230032/index.m3u8
+#EXTINF:91, group-title="专题", 军旅剧场
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229698/index.m3u8
+#EXTINF:92, group-title="专题", 家庭剧场
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229695/index.m3u8
+#EXTINF:93, group-title="专题", 海外剧场
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229654/index.m3u8
+#EXTINF:94, group-title="专题", 健康有约
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229692/index.m3u8
+#EXTINF:95, group-title="专题", 农业致富
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229666/index.m3u8
+#EXTINF:96, group-title="专题", 哒波赛事
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229678/index.m3u8
+#EXTINF:97, group-title="专题", 世界搏击
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229722/index.m3u8
+#EXTINF:98, group-title="专题", 中国功夫
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229663/index.m3u8
+#EXTINF:99, group-title="专题", 潮妈辣婆
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229725/index.m3u8
+#EXTINF:100, group-title="专题", 优购物
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231360/index.m3u8
+#EXTINF:101, group-title="专题",家有购物
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229044/index.m3u8
+#EXTINF:102, group-title="专题",央广购物
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221231409/index.m3u8
+#EXTINF:103, group-title="专题",炫舞未来
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229669/index.m3u8
+#EXTINF:104, group-title="专题",爱喜剧
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230022/133451466.smil/index.m3u8?fmt=ts2hls
+#EXTINF:105, group-title="专题",爱科幻
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230025/133448343.smil/index.m3u8?fmt=ts2hls
+#EXTINF:106, group-title="专题",爱探索
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230112/index.m3u8
+#EXTINF:107, group-title="专题",爱浪漫
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230005/133448347.smil/index.m3u8?fmt=ts2hls
+#EXTINF:108, group-title="专题",中国教育2
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221233746/482524877.smil/index.m3u8?fmt=ts2hls
+#EXTINF:110, group-title="专题",中国教育4
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230334/index.m3u8
+#EXTINF:111, group-title="专题",爱体育
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230103/index.m3u8
+#EXTINF:112, group-title="专题",咪咕综合体育
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232629/357220554.smil/index.m3u8?fmt=ts2hls
+#EXTINF:113, group-title="专题",咪咕精彩足球
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232657/357219566.smil/index.m3u8?fmt=ts2hls
+#EXTINF:114, group-title="专题",精品体育
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229719/index.m3u8
+#EXTINF:115, group-title="专题",金鹰纪实
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229328/78602057.smil/index.m3u8?fmt=ts2hls
+#EXTINF:116, group-title="专题",爱院线
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230019/133451219.smil/index.m3u8?fmt=ts2hls
+#EXTINF:117, group-title="专题",茶频道
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229404/80670192.smil/index.m3u8?fmt=ts2hls
+#EXTINF:118, group-title="专题",四海钓鱼
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228662/60366869.smil/index.m3u8?fmt=ts2hls
+#EXTINF:119, group-title="专题",车迷频道
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229410/80671671.smil/index.m3u8?fmt=ts2hls
+#EXTINF:120, group-title="专题",爱时尚
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230109/index.m3u8
+#EXTINF:121, group-title="专题",爱历史
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230100/index.m3u8
+#EXTINF:122, group-title="专题",Y+频道
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229999/133380193.smil/index.m3u8?fmt=ts2hls
+
+#EXTINF:201, group-title="其它", 都市剧场
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229280/42330389.smil/index.m3u8?fmt=ts2hls
-#EXTINF:51, group-title="专题", 求索记录4K
+#EXTINF:202, group-title="其它", 央视高尔夫·网球
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232630/42330389.smil/index.m3u8?fmt=ts2hls
+#EXTINF:203, group-title="其它", 央视超高清4K
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229373/42330389.smil/index.m3u8?fmt=ts2hls
+#EXTINF:204, group-title="其它", 百视通4K
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229311/42330389.smil/index.m3u8?fmt=ts2hls
+#EXTINF:205, group-title="其它", 求索记录4K
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232776/42330389.smil/index.m3u8?fmt=ts2hls
