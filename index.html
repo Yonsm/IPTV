@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>数字电视</title>
+		<meta charset="utf-8" />
+		<script>
+			function parse(text) {
+				var options = document.getElementById('menu').options
+				options.length = 0
+
+				var pairs = text.split('\r\n#EXTINF:')
+				for (var i = 1; i < pairs.length; i++) {
+					var pair = pairs[i]
+					var parts = pair.split('\r\n')
+					var metas = parts[0].split(',')
+					var title = metas[metas.length - 1].trim()
+					var url = parts[1]
+
+					options.add(new Option(title, url))
+				}
+
+				if (localStorage.hasOwnProperty('lastChannel')) {
+					var lastChannel = localStorage["lastChannel"]
+					options[lastChannel].selected = true
+				}
+
+				toggle()
+			}
+
+			function toggle() {
+				var menu = document.getElementById('menu')
+				var channel = menu.selectedIndex
+				var option = menu.options[channel]
+				console.log("切换到 " + option.text + "：" + option.value)
+
+				var video = document.getElementById('video')
+				video.innerHTML = '<source type="application/x-mpegURL" src="' + option.value + '" />'
+				localStorage["lastChannel"] = channel
+			}
+
+			function load() {
+				var isp = document.getElementById('isp')
+				var index = isp.selectedIndex
+				localStorage["lastIsp"] = index
+				var uri = isp.options[index].value + '.m3u8'
+				console.log("切换运营商 " + uri)
+				fetch(uri).then(response => response.text()).then(text => parse(text))
+			}
+
+			function init() {
+				if (localStorage.hasOwnProperty('lastIsp')) {
+					document.getElementById('isp').selectedIndex = localStorage["lastIsp"]
+				}
+				load()
+			}
+		</script>
+	</head>
+
+	<body onload="init()">
+		<video id="video" height="100%" width="100%" controls autoplay muted playsinline>
+		</video>
+		<select id="isp" onchange="load()">
+			<option value="hangzhou/mobile">杭州移动</option>
+			<option value="hangzhou/telecom">杭州电信</option>
+			<option value="jiangxi/telecom">江西电信</option>
+			<option value="shanghai/telecom">上海电信</option>
+			<option value="shanghai/unicom">上海电信</option>
+			<option value="suzhou/telecom">苏州移动</option>
+			<option value="other/iptv">公网电视</option>
+			<option value="other/iplaytv">其它电视</option>
+		</select>
+		<select id="menu" onchange="toggle()">
+			<option>加载中</option>
+		</select>
+	</body>
+
+</html>
