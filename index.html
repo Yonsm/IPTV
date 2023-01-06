@@ -6,13 +6,13 @@
 		<meta charset="utf-8" />
 		<script>
 			function parse(text) {
-				var options = document.getElementById('menu').options
+				var options = document.getElementById('channel').options
 				options.length = 0
 
-				var pairs = text.split('\r\n#EXTINF:')
+				var pairs = text.split('\n#EXTINF:')
 				for (var i = 1; i < pairs.length; i++) {
 					var pair = pairs[i]
-					var parts = pair.split('\r\n')
+					var parts = pair.split('\n')
 					var metas = parts[0].split(',')
 					var title = metas[metas.length - 1].trim()
 					var url = parts[1]
@@ -25,52 +25,57 @@
 					options[lastChannel].selected = true
 				}
 
-				toggle()
+				channel()
 			}
 
-			function toggle() {
-				var menu = document.getElementById('menu')
-				var channel = menu.selectedIndex
-				var option = menu.options[channel]
+			function channel() {
+				var channel = document.getElementById('channel')
+				var index = channel.selectedIndex
+				var option = channel.options[index]
 				console.log("切换到 " + option.text + "：" + option.value)
 
 				var video = document.getElementById('video')
 				video.innerHTML = '<source type="application/x-mpegURL" src="' + option.value + '" />'
-				localStorage["lastChannel"] = channel
+				localStorage["lastChannel"] = index
 			}
 
-			function load() {
-				var isp = document.getElementById('isp')
-				var index = isp.selectedIndex
-				localStorage["lastIsp"] = index
-				var uri = isp.options[index].value + '.m3u8'
+			function toggle() {
+				var source = document.getElementById('source')
+				var index = source.selectedIndex
+				localStorage["lastSource"] = index
+				var uri = source.options[index].value + '.m3u8'
 				console.log("切换运营商 " + uri)
 				fetch(uri).then(response => response.text()).then(text => parse(text))
 			}
 
-			function init() {
-				if (localStorage.hasOwnProperty('lastIsp')) {
-					document.getElementById('isp').selectedIndex = localStorage["lastIsp"]
+			function source() {
+				localStorage["lastChannel"] = 0
+				toggle()
+			}
+
+			function load() {
+				if (localStorage.hasOwnProperty('lastSource')) {
+					document.getElementById('source').selectedIndex = localStorage["lastSource"]
 				}
-				load()
+				toggle()
 			}
 		</script>
 	</head>
 
-	<body onload="init()">
-		<video id="video" height="100%" width="100%" controls autoplay muted playsinline>
+	<body onload="load()">
+		<video id="video" height="100%" width="100%" controls autoplay playsinline>
 		</video>
-		<select id="isp" onchange="load()">
+		<select id="source" onchange="source()">
 			<option value="hangzhou/mobile">杭州移动</option>
 			<option value="hangzhou/telecom">杭州电信</option>
 			<option value="jiangxi/telecom">江西电信</option>
 			<option value="shanghai/telecom">上海电信</option>
 			<option value="shanghai/unicom">上海电信</option>
-			<option value="suzhou/telecom">苏州移动</option>
+			<option value="suzhou/mobile">苏州移动</option>
 			<option value="other/iptv">公网电视</option>
 			<option value="other/iplaytv">其它电视</option>
 		</select>
-		<select id="menu" onchange="toggle()">
+		<select id="channel" onchange="channel()">
 			<option>加载中</option>
 		</select>
 	</body>
