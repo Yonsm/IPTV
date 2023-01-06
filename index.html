@@ -54,7 +54,13 @@
 			}
 
 			function load() {
-				if (localStorage.hasOwnProperty('lastSource')) {
+				if (location.search) {
+					var index = parseInt(location.search.substr(1))
+					if (index <= 7) {
+						document.getElementById('source').selectedIndex = index
+					}
+				}
+				else if (localStorage.hasOwnProperty('lastSource')) {
 					document.getElementById('source').selectedIndex = localStorage["lastSource"]
 				}
 				toggle()
@@ -70,7 +76,7 @@
 			<option value="hangzhou/telecom">杭州电信</option>
 			<option value="jiangxi/telecom">江西电信</option>
 			<option value="shanghai/telecom">上海电信</option>
-			<option value="shanghai/unicom">上海电信</option>
+			<option value="shanghai/unicom">上海联通</option>
 			<option value="suzhou/mobile">苏州移动</option>
 			<option value="other/iptv">公网电视</option>
 			<option value="other/iplaytv">其它电视</option>
