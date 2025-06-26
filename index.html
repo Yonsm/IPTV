@@ -4,58 +4,56 @@
 	<head>
 		<title>数字电视</title>
 		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<script src="https://cdn.jsdelivr.net/npm/hls.js@1.4.14/dist/hls.min.js"></script>
 		<script>
 			function parse(text) {
-				var options = document.getElementById('channel').options
+				let options = document.getElementById('channel').options
 				options.length = 0
 
-				var pairs = text.split('\n#EXTINF:')
-				for (var i = 1; i < pairs.length; i++) {
-					var pair = pairs[i]
-					var parts = pair.split('\n')
-					var metas = parts[0].split(',')
-					var title = metas[metas.length - 1].trim()
-					var url = parts[1]
+				let pairs = text.split('\n#EXTINF:')
+				for (let i = 1; i < pairs.length; i++) {
+					let pair = pairs[i]
+					let parts = pair.split('\n')
+					let metas = parts[0].split(',')
+					let title = metas[metas.length - 1].trim()
+					let url = parts[1]
 
 					options.add(new Option(title, url))
 				}
 
 				if (localStorage.hasOwnProperty('lastChannel')) {
-					var lastChannel = localStorage["lastChannel"]
+					let lastChannel = localStorage["lastChannel"]
 					options[lastChannel].selected = true
 				}
 
-				channel()
-			}
-
-			function channel() {
-				var channel = document.getElementById('channel')
-				var index = channel.selectedIndex
-				var option = channel.options[index]
-				console.log("切换到 " + option.text + "：" + option.value)
-
-				var video = document.getElementById('video')
-				video.innerHTML = '<source type="application/x-mpegURL" src="' + option.value + '" />'
-				localStorage["lastChannel"] = index
-			}
-
-			function toggle() {
-				var source = document.getElementById('source')
-				var index = source.selectedIndex
-				localStorage["lastSource"] = index
-				var uri = source.options[index].value + '.m3u8'
-				console.log("切换运营商 " + uri)
-				fetch(uri).then(response => response.text()).then(text => parse(text))
-			}
-
-			function source() {
-				localStorage["lastChannel"] = 0
 				toggle()
 			}
 
+			function toggle() {
+				let channel = document.getElementById('channel')
+				let index = channel.selectedIndex
+				let option = channel.options[index]
+				let url = option.value
+				console.log("切换频道 " + option.text + "：" + url)
+				localStorage["lastChannel"] = index
+				prep(url)
+			}
+
+			function change() {
+				let source = document.getElementById('source')
+				let index = source.selectedIndex
+				localStorage["lastSource"] = index
+				let uri = source.options[index].value + '.m3u8'
+				console.log("切换来源 " + uri)
+				fetch(uri).then(response => response.text()).then(text => parse(text))
+			}
+
 			function load() {
+				init()
 				if (location.search) {
-					var index = parseInt(location.search.substr(1))
+					let index = parseInt(location.search.substr(1))
 					if (index <= 7) {
 						document.getElementById('source').selectedIndex = index
 					}
@@ -63,27 +61,103 @@
 				else if (localStorage.hasOwnProperty('lastSource')) {
 					document.getElementById('source').selectedIndex = localStorage["lastSource"]
 				}
-				toggle()
+				change()
+			}
+
+			hls = null
+			video = null
+			function init(url) {
+				video = document.getElementById('video')
+				if (Hls.isSupported()) {
+					hls = new Hls()
+					console.log('使用 HLS 播放')
+					hls.attachMedia(video)
+					hls.on(Hls.Events.MANIFEST_PARSED, play)
+					hls.on(Hls.Events.ERROR, function (event, data) { console.error('播放错误: ', data) })
+				}
+				else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+					console.log('使用浏览器播放')
+					video.addEventListener('loadedmetadata', play)
+					video.addEventListener('error', function () { console.error('播放错误: ', video.error) })
+				}
+				else {
+					alert('浏览器不支持数字电视')
+				}
+			}
+
+			function prep(url) {
+				if (hls) {
+					hls.loadSource(url)
+				} else {
+					video.src = url
+					//video.innerHTML = '<source type="application/x-mpegURL" src="' + option.value + '" />'
+				}
+			}
+
+			function play() {
+				video.play().then(() => {
+					console.log('播放中...')
+				}).catch(err => {
+					console.error('播放错误:', err)
+				})
+			}
+
+			function keydown(e) {
+				e.preventDefault()
+				if (e.code == 'Enter') {
+					if (video.muted)
+						video.muted = false
+					else if (video.paused)
+						video.play()
+					else
+						video.pause()
+				} else if (e.code == 'KeyM') {
+					video.muted = !video.muted
+				} else if (e.code == 'KeyF') {
+					if (!document.fullscreenElement)
+						video.requestFullscreen()
+					else
+						document.exitFullscreen();
+				} else if (e.code == 'ArrowUp' || e.code == 'ArrowDown') {
+					let channel = document.getElementById('channel')
+					let index = channel.selectedIndex
+					let length = channel.options.length
+					if (e.code == 'ArrowDown') {
+						if (index < length - 1)
+							index += 1
+						else
+							index = 0
+					} else {
+						if (index > 0)
+							index -= 1
+						else
+							index = length - 1
+					}
+					channel.selectedIndex = index
+					toggle()
+				}
 			}
 		</script>
 	</head>
 
-	<body onload="load()">
-		<video id="video" height="100%" width="100%" controls autoplay playsinline>
+	<body onload="load()" onkeydown="keydown(event)" style="margin:0; background:black">
+		<video id="video" height="100%" width="100%" controls autoplay playsinline muted>
 		</video>
-		<select id="source" onchange="source()">
-			<option value="hangzhou/mobile">杭州移动</option>
-			<option value="hangzhou/telecom">杭州电信</option>
-			<option value="jiangxi/telecom">江西电信</option>
-			<option value="shanghai/telecom">上海电信</option>
-			<option value="shanghai/unicom">上海联通</option>
-			<option value="suzhou/mobile">苏州移动</option>
-			<option value="other/iptv">公网电视</option>
-			<option value="other/iplaytv">其它电视</option>
-		</select>
-		<select id="channel" onchange="channel()">
-			<option>加载中</option>
-		</select>
+		<center>
+			<select id="source" onchange="change()">
+				<option value="iptv">数字电视</option>
+				<option value="hangzhou/unicom">杭州联通</option>
+				<option value="hangzhou/telecom">杭州电信</option>
+				<option value="hangzhou/mobile">杭州移动</option>
+				<option value="jiangxi/telecom">江西电信</option>
+				<option value="shanghai/telecom">上海电信</option>
+				<option value="shanghai/unicom">上海联通</option>
+				<option value="suzhou/mobile">苏州移动</option>
+			</select>
+			<select id="channel" onchange="toggle()">
+				<option>加载中</option>
+			</select>
+		</center>
 	</body>
 
 </html>
