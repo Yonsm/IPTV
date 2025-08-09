@@ -9,9 +9,11 @@ https://yonsm.github.io/IPTV/hangzhou/telecom.m3u8
 https://yonsm.github.io/IPTV/hangzhou/mobile.m3u8
 #EXTINF:5, server-id="jiangxi_telecom", 江西电信
 https://yonsm.github.io/IPTV/jiangxi/telecom.m3u8
-#EXTINF:6, server-id="shanghai_unicom", 上海联通
+#EXTINF:6, server-id="jiangxi_mobile", 江西移动
+https://yonsm.github.io/IPTV/jiangxi/mobile.m3u8
+#EXTINF:7, server-id="shanghai_unicom", 上海联通
 https://yonsm.github.io/IPTV/shanghai/unicom.m3u8
-#EXTINF:7, server-id="suzhou_telecom", 上海电信
+#EXTINF:8, server-id="suzhou_telecom", 上海电信
 https://yonsm.github.io/IPTV/shanghai/telecom.m3u8
-#EXTINF:8, server-id="suzhou_mobile", 苏州移动
+#EXTINF:9, server-id="suzhou_mobile", 苏州移动
 https://yonsm.github.io/IPTV/suzhou/mobile.m3u8
