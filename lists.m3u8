@@ -1,19 +1,19 @@
 #EXTM3U
-#EXTINF:1, server-id="iptv", 数字电视
+#EXTINF:1, server-id="http://148.135.93.213/", 数字电视
 https://yonsm.github.io/IPTV/iptv.m3u8
-#EXTINF:2, server-id="hangzhou_unicom", 杭州联通
+#EXTINF:2, server-id="http://101.71.255.234:6610/", 杭州联通
 https://yonsm.github.io/IPTV/hangzhou/unicom.m3u8
-#EXTINF:3, server-id="hangzhou_telecom", 杭州电信
+#EXTINF:3, server-id="http://192.168.1.1:4000/", 杭州电信
 https://yonsm.github.io/IPTV/hangzhou/telecom.m3u8
-#EXTINF:4, server-id="hangzhou_mobile", 杭州移动
+#EXTINF:4, server-id="http://hwltc.tv.cdn.zj.chinamobile.com/", 杭州移动
 https://yonsm.github.io/IPTV/hangzhou/mobile.m3u8
-#EXTINF:5, server-id="jiangxi_telecom", 江西电信
+#EXTINF:5, server-id="rtsp://115.153.245.70/", 江西电信
 https://yonsm.github.io/IPTV/jiangxi/telecom.m3u8
-#EXTINF:6, server-id="jiangxi_mobile", 江西移动
+#EXTINF:6, server-id="http://39.135.138.8:6610/", 江西移动
 https://yonsm.github.io/IPTV/jiangxi/mobile.m3u8
-#EXTINF:7, server-id="shanghai_unicom", 上海联通
+#EXTINF:7, server-id="rtsp://20.254.1.9/", 上海联通
 https://yonsm.github.io/IPTV/shanghai/unicom.m3u8
-#EXTINF:8, server-id="suzhou_telecom", 上海电信
+#EXTINF:8, server-id="rtsp://124.75.34.37/", 上海电信
 https://yonsm.github.io/IPTV/shanghai/telecom.m3u8
-#EXTINF:9, server-id="suzhou_mobile", 苏州移动
+#EXTINF:9, server-id="http://183.207.248.71/", 苏州移动
 https://yonsm.github.io/IPTV/suzhou/mobile.m3u8
