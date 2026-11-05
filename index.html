@@ -4,27 +4,35 @@
 	<head>
 		<title>数字电视</title>
 		<meta charset="utf-8" />
+		<meta name="mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 		<script src="https://cdn.jsdelivr.net/npm/hls.js@1.4.14/dist/hls.min.js"></script>
 		<script>
+			function status(text) {
+				document.getElementById('status').textContent = text
+			}
+
+			function parseOptions(text, options) {
+				options.length = 0
+				let title = null
+				for (let line of text.split(/\r?\n/)) {
+					line = line.trim()
+					if (/^#?EXTINF:/.test(line)) {
+						title = line.substring(line.lastIndexOf(',') + 1).trim()
+					} else if (line && !line.startsWith('#') && title !== null) {
+						options.add(new Option(title, line))
+						title = null
+					}
+				}
+				if (!options.length) throw new Error('播放列表为空')
+			}
+
 			function parse(text) {
 				let options = document.getElementById('channel').options
-				options.length = 0
-
-				let pairs = text.split('\n#EXTINF:')
-				for (let i = 1; i < pairs.length; i++) {
-					let pair = pairs[i]
-					let parts = pair.split('\n')
-					let metas = parts[0].split(',')
-					let title = metas[metas.length - 1].trim()
-					let url = parts[1]
-
-					options.add(new Option(title, url))
-				}
-
-				if (localStorage.hasOwnProperty('lastChannel')) {
-					let lastChannel = localStorage["lastChannel"]
+				parseOptions(text, options)
+				let lastChannel = Number(localStorage["lastChannel"])
+				if (Number.isInteger(lastChannel) && lastChannel >= 0 && lastChannel < options.length) {
 					options[lastChannel].selected = true
 				}
 
@@ -35,62 +43,104 @@
 				let channel = document.getElementById('channel')
 				let index = channel.selectedIndex
 				let option = channel.options[index]
+				if (!option || channel.disabled) return
 				let url = option.value
 				console.log("切换频道 " + option.text + "：" + url)
 				localStorage["lastChannel"] = index
 				prep(url)
 			}
 
-			function change() {
+			async function fetchList(uri) {
+				let response = await fetch(uri)
+				if (!response.ok) throw new Error('加载失败: ' + response.status + ' ' + uri)
+				return response.text()
+			}
+
+			async function change() {
 				let source = document.getElementById('source')
 				let index = source.selectedIndex
+				if (index < 0 || source.disabled) return
+				if (hls) hls.stopLoad()
+				video.pause()
 				localStorage["lastSource"] = index
-				let uri = source.options[index].value + '.m3u8'
+				let uri = source.options[index].value
 				console.log("切换来源 " + uri)
-				fetch(uri).then(response => response.text()).then(text => parse(text))
+				let channel = document.getElementById('channel')
+				channel.disabled = true
+				channel.replaceChildren(new Option('加载中', ''))
+				status('加载中…')
+				try {
+					let text = await fetchList(uri)
+					if (source.value !== uri) return
+					channel.disabled = false
+					parse(text)
+				} catch (err) {
+					if (source.value !== uri) return
+					channel.disabled = true
+					channel.replaceChildren(new Option('加载失败', ''))
+					status('列表加载失败')
+					console.error(err)
+				}
 			}
 
-			function load() {
-				init()
-				if (location.search) {
-					let index = parseInt(location.search.substr(1))
-					if (index <= 7) {
-						document.getElementById('source').selectedIndex = index
+			async function load() {
+				if (!init()) return
+				let source = document.getElementById('source')
+				try {
+					parseOptions(await fetchList('lists.m3u8'), source.options)
+					let index = Number(location.search ? location.search.substring(1) : localStorage["lastSource"])
+					if (Number.isInteger(index) && index >= 0 && index < source.options.length) {
+						source.selectedIndex = index
 					}
+					source.disabled = false
+					await change()
+				} catch (err) {
+					source.replaceChildren(new Option('加载失败', ''))
+					status('来源加载失败')
+					console.error(err)
 				}
-				else if (localStorage.hasOwnProperty('lastSource')) {
-					document.getElementById('source').selectedIndex = localStorage["lastSource"]
-				}
-				change()
 			}
 
-			hls = null
-			video = null
-			function init(url) {
+			let hls = null, video = null, retries = 0
+			function init() {
 				video = document.getElementById('video')
-				if (Hls.isSupported()) {
+				video.addEventListener('playing', () => status('播放中'))
+				video.addEventListener('pause', () => status('已暂停'))
+				video.addEventListener('waiting', () => status('缓冲中…'))
+				if (typeof Hls !== 'undefined' && Hls.isSupported()) {
 					hls = new Hls()
 					console.log('使用 HLS 播放')
 					hls.attachMedia(video)
 					hls.on(Hls.Events.MANIFEST_PARSED, play)
-					hls.on(Hls.Events.ERROR, function (event, data) { console.error('播放错误: ', data) })
+					hls.on(Hls.Events.ERROR, (event, data) => {
+						console.error('播放错误:', data)
+						if (!data.fatal) return
+						if (retries++ >= 3) { status('播放失败，请切换频道或来源'); return }
+						if (data.type === Hls.ErrorTypes.NETWORK_ERROR) hls.loadSource(hls.url)
+						else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) { hls.recoverMediaError(); play() }
+						else status('此频道无法播放')
+					})
 				}
 				else if (video.canPlayType('application/vnd.apple.mpegurl')) {
 					console.log('使用浏览器播放')
 					video.addEventListener('loadedmetadata', play)
-					video.addEventListener('error', function () { console.error('播放错误: ', video.error) })
+					video.addEventListener('error', () => status('此频道无法播放'))
 				}
 				else {
-					alert('浏览器不支持数字电视')
+					status(typeof Hls === 'undefined' ? '播放器加载失败，请刷新' : '浏览器不支持数字电视')
+					return false
 				}
+				return true
 			}
 
 			function prep(url) {
+				retries = 0
+				status('加载中…')
 				if (hls) {
 					hls.loadSource(url)
 				} else {
 					video.src = url
-					//video.innerHTML = '<source type="application/x-mpegURL" src="' + option.value + '" />'
+					video.load()
 				}
 			}
 
@@ -98,6 +148,8 @@
 				video.play().then(() => {
 					console.log('播放中...')
 				}).catch(err => {
+					if (err.name === 'AbortError') return
+					status(err.name === 'NotAllowedError' ? '点击播放按钮开始播放' : '无法播放此频道')
 					console.error('播放错误:', err)
 				})
 			}
@@ -108,7 +160,7 @@
 					if (video.muted)
 						video.muted = false
 					else if (video.paused)
-						video.play()
+						play()
 					else
 						video.pause()
 				} else if (e.code == 'KeyM') {
@@ -144,19 +196,13 @@
 		<video id="video" height="100%" width="100%" controls autoplay playsinline muted>
 		</video>
 		<center>
-			<select id="source" onchange="change()">
-				<option value="iptv">数字电视</option>
-				<option value="hangzhou/unicom">杭州联通</option>
-				<option value="hangzhou/telecom">杭州电信</option>
-				<option value="hangzhou/mobile">杭州移动</option>
-				<option value="jiangxi/telecom">江西电信</option>
-				<option value="shanghai/telecom">上海电信</option>
-				<option value="shanghai/unicom">上海联通</option>
-				<option value="suzhou/mobile">苏州移动</option>
-			</select>
-			<select id="channel" onchange="toggle()">
+			<select id="source" onchange="change()" disabled>
 				<option>加载中</option>
 			</select>
+			<select id="channel" onchange="toggle()" disabled>
+				<option>加载中</option>
+			</select>
+			<span id="status" role="status" style="color:white; font-size:13px"></span>
 		</center>
 	</body>
 
