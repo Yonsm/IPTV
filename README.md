@@ -1,11 +1,10 @@
-<h1 align="center">IPTV</h1>
+# [IPTV](https://yonsm.github.io/IPTV/)
 
-<p align="center">IPTV 直播源、频道图标与 Nginx 转发配置</p>
+IPTV 直播源、频道图标与 Nginx 转发配置。
 
-<p align="center">
-  <a href="iptv.htm">网页播放</a>
-  · <a href="https://github.com/Yonsm/IPTV/issues">问题反馈</a>
-</p>
+[网页播放](iptv.htm) · [问题反馈](https://github.com/Yonsm/IPTV/issues)
+
+网页播放推荐使用 **Safari**，其原生 HLS 支持较好；**Chrome** 通过 hls.js 播放，可能受直播源跨域配置、音视频编码等限制。HTTPS 页面中的 HTTP 直播源还可能被浏览器拦截，无法播放时建议使用独立播放器。
 
 ## 播放源
 
@@ -44,6 +43,15 @@
 
 仓库提供 [nginx/iptv.conf](nginx/iptv.conf) 配置文件，支持代理杭州联通与江西移动直播源。
 
+## 台标与图标
+
+| 资源 | 目录 | 示例 |
+| --- | --- | --- |
+| JPG 台标 | [logo/](logo/) | [CCTV1](logo/CCTV1.jpg) · [央视综合](logo/央视综合.jpg) · [湖南卫视](logo/湖南卫视.jpg) |
+| PNG 图标 | [icon/](icon/) | [CCTV1](icon/CCTV1.png) · [央视综合](icon/央视综合.png) · [湖南卫视](icon/湖南卫视.png) |
+
+可通过 `https://yonsm.github.io/IPTV/logo/频道名.jpg` 或 `https://yonsm.github.io/IPTV/icon/频道名.png` 引用，文件名以目录为准。
+
 ## 其它资源
 
-[频道图标](LOGO/) · [在线节目单（XMLTV）](https://live.fanmingming.cn/e.xml) · [APTV 源集合](https://github.com/Kimentanm/aptv)
+[在线节目单（XMLTV）](https://live.fanmingming.cn/e.xml) · [APTV 源集合](https://github.com/Kimentanm/aptv)
