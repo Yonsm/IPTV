@@ -1,43 +1,43 @@
 #EXTM3U
 
-#EXTINF:01,group-title="央视" tvg-name="CCTV1",央视1综合
+#EXTINF:01,group-title="央视" tvg-name="CCTV1",央视综合
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225642/01.m3u8
-#EXTINF:02,group-title="央视" tvg-name="CCTV2",央视2财经
+#EXTINF:02,group-title="央视" tvg-name="CCTV2",央视财经
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225643/01.m3u8
-#EXTINF:03,group-title="央视" tvg-name="CCTV3",央视3综艺
+#EXTINF:03,group-title="央视" tvg-name="CCTV3",央视综艺
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225634/01.m3u8
-#EXTINF:04,group-title="央视" tvg-name="CCTV4",央视4国际
+#EXTINF:04,group-title="央视" tvg-name="CCTV4",央视国际
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225621/01.m3u8
-#EXTINF:05,group-title="央视" tvg-name="CCTV5",央视5体育
+#EXTINF:05,group-title="央视" tvg-name="CCTV5",央视体育
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225633/01.m3u8
-#EXTINF:06,group-title="央视" tvg-name="CCTV6",央视6电影
+#EXTINF:06,group-title="央视" tvg-name="CCTV6",央视电影
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225632/01.m3u8
-#EXTINF:07,group-title="央视" tvg-name="CCTV7",央视7军事
+#EXTINF:07,group-title="央视" tvg-name="CCTV7",央视军事
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225644/01.m3u8
-#EXTINF:08,group-title="央视" tvg-name="CCTV8",央视8电视剧
+#EXTINF:08,group-title="央视" tvg-name="CCTV8",央视电视剧
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225631/01.m3u8
-#EXTINF:09,group-title="央视" tvg-name="CCTV9",央视9纪录
+#EXTINF:09,group-title="央视" tvg-name="CCTV9",央视纪录
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225646/01.m3u8
-#EXTINF:10,group-title="央视" tvg-name="CCTV10",央视10科教
+#EXTINF:10,group-title="央视" tvg-name="CCTV10",央视科教
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225636/01.m3u8
-#EXTINF:11,group-title="央视" tvg-name="CCTV11",央视11戏曲
+#EXTINF:11,group-title="央视" tvg-name="CCTV11",央视戏曲
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225628/01.m3u8
-#EXTINF:12,group-title="央视" tvg-name="CCTV12",央视12社会
+#EXTINF:12,group-title="央视" tvg-name="CCTV12",央视社会
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225637/01.m3u8
-#EXTINF:13,group-title="央视" tvg-name="CCTV13",央视13新闻
+#EXTINF:13,group-title="央视" tvg-name="CCTV13",央视新闻
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225638/01.m3u8
-#EXTINF:14,group-title="央视" tvg-name="CCTV14",央视14少儿
+#EXTINF:14,group-title="央视" tvg-name="CCTV14",央视少儿
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225640/01.m3u8
-#EXTINF:15,group-title="央视" tvg-name="CCTV15",央视15音乐
+#EXTINF:15,group-title="央视" tvg-name="CCTV15",央视音乐
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225641/01.m3u8
-#EXTINF:16,group-title="央视" tvg-name="CCTV16",央视16奥运
+#EXTINF:16,group-title="央视" tvg-name="CCTV16",央视奥运
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226230/01.m3u8
-#EXTINF:17,group-title="央视" tvg-name="CCTV17",央视17农业
+#EXTINF:17,group-title="央视" tvg-name="CCTV17",央视农业
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225909/01.m3u8
-#EXTINF:18,group-title="央视" tvg-name="CCTV5+",央视5+赛事
+#EXTINF:18,group-title="央视" tvg-name="CCTV5+",央视赛事
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225706/01.m3u8
 
-#EXTINF:20,group-title="超高" tvg-name="CCTV16",央视16超高
+#EXTINF:20,group-title="超高" tvg-name="CCTV16",央视超高
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226236/01.m3u8?fmt=ts2hls
 #EXTINF:21,group-title="超高",北京超高
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226394/01.m3u8

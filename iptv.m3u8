@@ -1,40 +1,40 @@
 #EXTM3U
 
-#EXTINF:01, group-title="央视" tvg-name="CCTV1", 央视1综合
+#EXTINF:01, group-title="央视" tvg-name="CCTV1", 央视综合
 http://74.91.26.218:82/live/cctv1hd.m3u8
-#EXTINF:02, group-title="央视" tvg-name="CCTV2", 央视2财经
+#EXTINF:02, group-title="央视" tvg-name="CCTV2", 央视财经
 http://198.204.228.26/live/cctv2hd.m3u8
-#EXTINF:03, group-title="央视" tvg-name="CCTV3", 央视3综艺
+#EXTINF:03, group-title="央视" tvg-name="CCTV3", 央视综艺
 http://74.91.26.218:82/live/cctv3hd.m3u8
-#EXTINF:04, group-title="央视" tvg-name="CCTV4", 央视4国际
+#EXTINF:04, group-title="央视" tvg-name="CCTV4", 央视国际
 http://74.91.26.218:82/live/cctv4hd.m3u8
-#EXTINF:05, group-title="央视" tvg-name="CCTV5", 央视5体育
+#EXTINF:05, group-title="央视" tvg-name="CCTV5", 央视体育
 http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009
-#EXTINF:06, group-title="央视" tvg-name="CCTV6", 央视6电影
+#EXTINF:06, group-title="央视" tvg-name="CCTV6", 央视电影
 http://192.151.150.154/live/cctv6hd.m3u8
-#EXTINF:07, group-title="央视" tvg-name="CCTV7", 央视7军事
+#EXTINF:07, group-title="央视" tvg-name="CCTV7", 央视军事
 http://74.91.26.218:82/live/cctv7hd.m3u8
-#EXTINF:08, group-title="央视" tvg-name="CCTV8", 央视8电视剧
+#EXTINF:08, group-title="央视" tvg-name="CCTV8", 央视电视剧
 http://74.91.26.218:82/live/cctv8hd.m3u8
-#EXTINF:09, group-title="央视" tvg-name="CCTV9", 央视9纪录
+#EXTINF:09, group-title="央视" tvg-name="CCTV9", 央视纪录
 http://192.151.150.154/live/cctv9hd.m3u8
-#EXTINF:10, group-title="央视" tvg-name="CCTV10", 央视10科教
+#EXTINF:10, group-title="央视" tvg-name="CCTV10", 央视科教
 http://74.91.26.218:82/live/cctv10hd.m3u8
-#EXTINF:11, group-title="央视" tvg-name="CCTV11", 央视11戏曲
+#EXTINF:11, group-title="央视" tvg-name="CCTV11", 央视戏曲
 http://107.150.60.122/live/cctv11hd.m3u8
-#EXTINF:12, group-title="央视" tvg-name="CCTV12", 央视12社会
+#EXTINF:12, group-title="央视" tvg-name="CCTV12", 央视社会
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv12hd
-#EXTINF:13, group-title="央视" tvg-name="CCTV13", 央视13新闻
+#EXTINF:13, group-title="央视" tvg-name="CCTV13", 央视新闻
 http://192.151.150.154/live/cctv13hd.m3u8
-#EXTINF:14, group-title="央视" tvg-name="CCTV14", 央视14少儿
+#EXTINF:14, group-title="央视" tvg-name="CCTV14", 央视少儿
 http://107.150.60.122/live/cctv14hd.m3u8
-#EXTINF:15, group-title="央视" tvg-name="CCTV15", 央视15音乐
+#EXTINF:15, group-title="央视" tvg-name="CCTV15", 央视音乐
 http://192.151.150.154/live/cctv15hd.m3u8
-#EXTINF:16, group-title="央视" tvg-name="CCTV16", 央视16奥运
+#EXTINF:16, group-title="央视" tvg-name="CCTV16", 央视奥运
 http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
-#EXTINF:17, group-title="央视" tvg-name="CCTV17", 央视17农业
+#EXTINF:17, group-title="央视" tvg-name="CCTV17", 央视农业
 http://192.151.150.154/live/cctv17hd.m3u8
-#EXTINF:18, group-title="央视" tvg-name="CCTV5+", 央视5+赛事
+#EXTINF:18, group-title="央视" tvg-name="CCTV5+", 央视赛事
 http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
 
 #EXTINF:19, group-title="卫视" tvg-name="北京卫视", 北京卫视

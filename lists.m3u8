@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:1, server-id="http://148.135.93.213/", 公网电视
+#EXTINF:1, server-id="http://148.135.93.213/", 公共在线
 https://yonsm.github.io/IPTV/iptv.m3u8
 #EXTINF:2, server-id="http://101.71.255.234:6610/", 杭州联通
 https://yonsm.github.io/IPTV/hangzhou/unicom.m3u8
@@ -17,5 +17,5 @@ https://yonsm.github.io/IPTV/shanghai/unicom.m3u8
 https://yonsm.github.io/IPTV/shanghai/telecom.m3u8
 #EXTINF:9, server-id="http://183.207.248.71/", 苏州移动
 https://yonsm.github.io/IPTV/suzhou/mobile.m3u8
-#EXTINF:10, server-id="https://github.com/Kimentanm/", 公网其它
+#EXTINF:10, server-id="https://github.com/Kimentanm/", 其它在线
 https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
