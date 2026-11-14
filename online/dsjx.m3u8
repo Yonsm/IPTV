@@ -1,0 +1,132 @@
+#EXTM3U
+#EXTINF:01,group-title="央视" tvg-name="CCTV1",央视综合
+http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
+#EXTINF:02,group-title="央视" tvg-name="CCTV2",央视财经
+http://38.75.136.137:98/gslb/dsdqbv/cctv2hd.m3u8?auth=test20251009
+#EXTINF:03,group-title="央视" tvg-name="CCTV3",央视综艺
+http://38.75.136.137:98/gslb/dsdqbv/cctv3hd.m3u8?auth=test20251009
+#EXTINF:04,group-title="央视" tvg-name="CCTV5",央视体育
+http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009
+#EXTINF:05,group-title="央视" tvg-name="CCTV6",央视电影
+http://38.75.136.137:98/gslb/dsdqbv/cctv6hd.m3u8?auth=test20251009
+#EXTINF:06,group-title="央视" tvg-name="CCTV7",央视军事
+http://38.75.136.137:98/gslb/dsdqbv/cctv7hd.m3u8?auth=test20251009
+#EXTINF:07,group-title="央视" tvg-name="CCTV8",央视电视剧
+http://38.75.136.137:98/gslb/dsdqbv/cctv8hd.m3u8?auth=test20251009
+#EXTINF:08,group-title="央视" tvg-name="CCTV9",央视纪录
+http://38.75.136.137:98/gslb/dsdqbv/cctv9hd.m3u8?auth=test20251009
+#EXTINF:09,group-title="央视" tvg-name="CCTV10",央视科教
+http://38.75.136.137:98/gslb/dsdqbv/cctv10hd.m3u8?auth=test20251009
+#EXTINF:10,group-title="央视" tvg-name="CCTV11",央视戏曲
+http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009
+#EXTINF:11,group-title="央视" tvg-name="CCTV12",央视社会
+http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009
+#EXTINF:12,group-title="央视" tvg-name="CCTV13",央视新闻
+http://38.75.136.137:98/gslb/dsdqbv/cctv13hd.m3u8?auth=test20251009
+#EXTINF:13,group-title="央视" tvg-name="CCTV14",央视少儿
+http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009
+#EXTINF:14,group-title="央视" tvg-name="CCTV15",央视音乐
+http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009
+#EXTINF:15,group-title="央视" tvg-name="CCTV16",央视奥运
+http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
+#EXTINF:16,group-title="央视" tvg-name="CCTV17",央视农业
+http://38.75.136.137:98/gslb/dsdqbv/cctv17hd.m3u8?auth=test20251009
+#EXTINF:17,group-title="央视" tvg-name="CCTV5+",央视赛事
+http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
+#EXTINF:18,group-title="超高" tvg-name="CCTV16",央视超高
+http://38.75.136.137:98/gslb/dsdqbv/cctv4k.m3u8?auth=test20251009
+#EXTINF:19,group-title="卫视",安徽卫视
+http://38.75.136.137:98/gslb/dsdqbv/ahwshd.m3u8?auth=test20251009
+#EXTINF:20,group-title="卫视",北京卫视
+http://38.75.136.137:98/gslb/dsdqbv/bjwshd.m3u8?auth=test20251009
+#EXTINF:21,group-title="卫视",重庆卫视
+http://38.75.136.137:98/gslb/dsdqbv/cqwshd.m3u8?auth=test20251009
+#EXTINF:22,group-title="卫视",东方卫视
+http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009
+#EXTINF:23,group-title="卫视",东南卫视
+http://38.75.136.137:98/gslb/dsdqbv/dnwshd.m3u8?auth=test20251009
+#EXTINF:24,group-title="卫视",甘肃卫视
+http://38.75.136.137:98/gslb/dsdqbv/gswshd.m3u8?auth=test20251009
+#EXTINF:25,group-title="卫视",广东卫视
+http://38.75.136.137:98/gslb/dsdqbv/gdwshd.m3u8?auth=test20251009
+#EXTINF:26,group-title="卫视",广西卫视
+http://38.75.136.137:98/gslb/dsdqbv/gxwshd.m3u8?auth=test20251009
+#EXTINF:27,group-title="卫视",贵州卫视
+http://38.75.136.137:98/gslb/dsdqbv/gzwshd.m3u8?auth=test20251009
+#EXTINF:28,group-title="卫视",河南卫视
+http://38.75.136.137:98/gslb/dsdqbv/hawshd.m3u8?auth=test20251009
+#EXTINF:29,group-title="卫视",黑龙江卫视
+http://38.75.136.137:98/gslb/dsdqbv/hljwshd.m3u8?auth=test20251009
+#EXTINF:30,group-title="卫视",湖北卫视
+http://38.75.136.137:98/gslb/dsdqbv/hbwshd.m3u8?auth=test20251009
+#EXTINF:31,group-title="卫视",湖南卫视
+http://38.75.136.137:98/gslb/dsdqbv/hnwshd.m3u8?auth=test20251009
+#EXTINF:32,group-title="卫视",吉林卫视
+http://38.75.136.137:98/gslb/dsdqbv/jlwshd.m3u8?auth=test20251009
+#EXTINF:33,group-title="卫视",江苏卫视
+http://38.75.136.137:98/gslb/dsdqbv/jswshd.m3u8?auth=test20251009
+#EXTINF:34,group-title="卫视",江西卫视
+http://38.75.136.137:98/gslb/dsdqbv/jxwshd.m3u8?auth=test20251009
+#EXTINF:35,group-title="卫视",辽宁卫视
+http://38.75.136.137:98/gslb/dsdqbv/lnwshd.m3u8?auth=test20251009
+#EXTINF:36,group-title="卫视",山东卫视
+http://38.75.136.137:98/gslb/dsdqbv/sdwshd.m3u8?auth=test20251009
+#EXTINF:37,group-title="卫视",山西卫视
+http://38.75.136.137:98/gslb/dsdqbv/sxwshd.m3u8?auth=test20251009
+#EXTINF:38,group-title="卫视",深圳卫视
+http://38.75.136.137:98/gslb/dsdqbv/szwshd.m3u8?auth=test20251009
+#EXTINF:39,group-title="卫视",四川卫视
+http://38.75.136.137:98/gslb/dsdqbv/scwshd.m3u8?auth=test20251009
+#EXTINF:40,group-title="卫视",天津卫视
+http://38.75.136.137:98/gslb/dsdqbv/tjwshd.m3u8?auth=test20251009
+#EXTINF:41,group-title="卫视",新疆卫视
+http://38.75.136.137:98/gslb/dsdqbv/xjws.m3u8?auth=test20251009
+#EXTINF:42,group-title="卫视",云南卫视
+http://38.75.136.137:98/gslb/dsdqbv/ynwshd.m3u8?auth=test20251009
+#EXTINF:43,group-title="卫视",浙江卫视
+http://38.75.136.137:98/gslb/dsdqbv/zjwshd.m3u8?auth=test20251009
+#EXTINF:44,group-title="地方",广东珠江
+http://38.75.136.137:98/gslb/dsdqbv/gdzj.m3u8?auth=test20251009
+#EXTINF:45,group-title="地方",广东新闻
+http://38.75.136.137:98/gslb/dsdqbv/gdxw.m3u8?auth=test20251009
+#EXTINF:46,group-title="地方",广东民生
+http://38.75.136.137:98/gslb/dsdqbv/gdgg.m3u8?auth=test20251009
+#EXTINF:47,group-title="教育",中国教育
+http://38.75.136.137:98/gslb/dsdqbv/cetv1hd.m3u8?auth=test20251009
+#EXTINF:48,group-title="教育",优漫卡通
+http://38.75.136.137:98/gslb/dsdqbv/ymkt.m3u8?auth=test20251009
+#EXTINF:49,group-title="影视",影迷电影
+http://38.75.136.137:98/gslb/dsdqbv/chchd.m3u8?auth=test20251009
+#EXTINF:50,group-title="影视",风云剧场
+http://38.75.136.137:98/gslb/dsdqbv/fyjc.m3u8?auth=test20251009
+#EXTINF:51,group-title="影视",风云足球
+http://38.75.136.137:98/gslb/dsdqbv/fyzq.m3u8?auth=test20251009
+#EXTINF:52,group-title="影视",风云音乐
+http://38.75.136.137:98/gslb/dsdqbv/fyyy.m3u8?auth=test20251009
+#EXTINF:53,group-title="影视",第一剧场
+http://38.75.136.137:98/gslb/dsdqbv/dyjc.m3u8?auth=test20251009
+#EXTINF:54,group-title="影视",怀旧剧场
+http://38.75.136.137:98/gslb/dsdqbv/hjjc.m3u8?auth=test20251009
+#EXTINF:55,group-title="影视",女性时尚
+http://38.75.136.137:98/gslb/dsdqbv/nxss.m3u8?auth=test20251009
+#EXTINF:56,group-title="影视",高尔夫·网球
+http://38.75.136.137:98/gslb/dsdqbv/gefwq.m3u8?auth=test20251009
+#EXTINF:57,group-title="其它",四海钓鱼
+http://38.75.136.137:98/gslb/dsdqbv/shdy.m3u8?auth=test20251009
+
+#EXTINF:58,group-title="卫视",内蒙古卫视
+http://38.75.136.137:98/gslb/dsdqbv/nmgws.m3u8?auth=test20251009
+#EXTINF:59,group-title="卫视",青海卫视
+http://38.75.136.137:98/gslb/dsdqbv/qhws.m3u8?auth=test20251009
+#EXTINF:60,group-title="卫视",厦门卫视
+http://38.75.136.137:98/gslb/dsdqbv/xmws.m3u8?auth=test20251009
+#EXTINF:61,group-title="地方",广东体育
+http://38.75.136.137:98/gslb/dsdqbv/gdty.m3u8?auth=test20251009
+#EXTINF:62,group-title="教育",中国教育2
+http://38.75.136.137:98/gslb/dsdqbv/cetv2.m3u8?auth=test20251009
+#EXTINF:63,group-title="教育",中国教育3
+http://38.75.136.137:98/gslb/dsdqbv/cetv3.m3u8?auth=test20251009
+#EXTINF:64,group-title="教育",中国教育4
+http://38.75.136.137:98/gslb/dsdqbv/cetv4.m3u8?auth=test20251009
+#EXTINF:65,group-title="影视",动作电影
+http://38.75.136.137:98/gslb/dsdqbv/chcdz.m3u8?auth=test20251009

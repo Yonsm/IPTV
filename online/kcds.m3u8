@@ -1,0 +1,101 @@
+#EXTM3U
+
+#EXTINF:01,group-title="央视" tvg-name="CCTV1",央视综合
+http://198.204.228.26/live/cctv1md.m3u8
+#EXTINF:02,group-title="央视" tvg-name="CCTV2",央视财经
+http://198.204.228.26/live/cctv2hd.m3u8
+#EXTINF:03,group-title="央视" tvg-name="CCTV3",央视综艺
+http://198.204.228.26/live/cctv3hd.m3u8
+#EXTINF:04,group-title="央视" tvg-name="CCTV4",央视国际
+http://198.204.228.26/live/cctv4hd.m3u8
+#EXTINF:05,group-title="央视" tvg-name="CCTV5",央视体育
+http://198.204.228.26/live/cctv5md.m3u8
+#EXTINF:06,group-title="央视" tvg-name="CCTV6",央视电影
+http://198.204.228.26/live/cctv6md.m3u8
+#EXTINF:08,group-title="央视" tvg-name="CCTV8",央视电视剧
+http://198.204.228.26/live/cctv8md.m3u8
+#EXTINF:09,group-title="央视" tvg-name="CCTV9",央视纪录
+http://198.204.228.26/live/cctv9md.m3u8
+#EXTINF:10,group-title="央视" tvg-name="CCTV10",央视科教
+http://198.204.228.26/live/cctv10md.m3u8
+#EXTINF:11,group-title="央视" tvg-name="CCTV11",央视戏曲
+http://198.204.228.26/live/cctv11md.m3u8
+#EXTINF:12,group-title="央视" tvg-name="CCTV12",央视社会
+http://198.204.228.26/live/cctv12md.m3u8
+#EXTINF:13,group-title="央视" tvg-name="CCTV13",央视新闻
+http://198.204.228.26/live/cctv13md.m3u8
+#EXTINF:14,group-title="央视" tvg-name="CCTV14",央视少儿
+http://198.204.228.26/live/cctv14md.m3u8
+#EXTINF:15,group-title="央视" tvg-name="CCTV15",央视音乐
+http://198.204.228.26/live/cctv15md.m3u8
+#EXTINF:16,group-title="央视" tvg-name="CCTV16",央视奥运
+http://198.204.228.26/live/cctv16hd.m3u8
+#EXTINF:17,group-title="央视" tvg-name="CCTV17",央视农业
+http://198.204.228.26/live/cctv17hd.m3u8
+
+#EXTINF:18,group-title="超高" tvg-name="CCTV16",央视超高
+http://198.204.228.26/live/cctv4k.m3u8
+#EXTINF:19,group-title="卫视",北京卫视
+http://198.204.228.26/live/bjwshd.m3u8
+#EXTINF:20,group-title="卫视",兵团卫视
+http://198.204.228.26/live/btws.m3u8
+#EXTINF:21,group-title="卫视",重庆卫视
+http://198.204.228.26/live/cqwshd.m3u8
+#EXTINF:22,group-title="卫视",东南卫视
+http://198.204.228.26/live/dnwshd.m3u8
+#EXTINF:23,group-title="卫视",广东卫视
+http://198.204.228.26/live/gdwshd.m3u8
+#EXTINF:24,group-title="卫视",广西卫视
+http://198.204.228.26/live/gxwshd.m3u8
+#EXTINF:25,group-title="卫视",贵州卫视
+http://198.204.228.26/live/gzwshd.m3u8
+#EXTINF:26,group-title="卫视",湖北卫视
+http://198.204.228.26/live/hbwshd.m3u8
+#EXTINF:27,group-title="卫视",江苏卫视
+http://198.204.228.26/live/jswshd.m3u8
+#EXTINF:28,group-title="卫视",江西卫视
+http://198.204.228.26/live/jxwshd.m3u8
+#EXTINF:29,group-title="卫视",内蒙古卫视
+http://198.204.228.26/live/nmgws.m3u8
+#EXTINF:30,group-title="卫视",青海卫视
+http://198.204.228.26/live/qhws.m3u8
+#EXTINF:31,group-title="卫视",山东卫视
+http://198.204.228.26/live/sdwshd.m3u8
+#EXTINF:32,group-title="卫视",深圳卫视
+http://198.204.228.26/live/szwshd.m3u8
+#EXTINF:33,group-title="卫视",新疆卫视
+http://198.204.228.26/live/xjws.m3u8
+#EXTINF:34,group-title="卫视",云南卫视
+http://198.204.228.26/live/ynwshd.m3u8
+#EXTINF:35,group-title="卫视",浙江卫视
+http://198.204.228.26/live/zjwshd.m3u8
+#EXTINF:36,group-title="卫视",三沙卫视
+http://198.204.228.26/live/ssws.m3u8
+#EXTINF:37,group-title="地方",广东体育
+http://198.204.228.26/live/gdty.m3u8
+#EXTINF:38,group-title="地方",广东新闻
+http://198.204.228.26/live/gdxw.m3u8
+#EXTINF:39,group-title="地方",广东民生
+http://198.204.228.26/live/gdgg.m3u8
+#EXTINF:40,group-title="教育",中国教育
+http://198.204.228.26/live/cetv1hd.m3u8
+#EXTINF:41,group-title="教育",中国教育3
+http://198.204.228.26/live/cetv3.m3u8
+#EXTINF:42,group-title="教育",中国教育4
+http://198.204.228.26/live/cetv4.m3u8
+#EXTINF:43,group-title="教育",优漫卡通
+http://198.204.228.26/live/ymkt.m3u8
+#EXTINF:44,group-title="影视",动作电影
+http://198.204.228.26/live/chcdz.m3u8
+#EXTINF:45,group-title="影视",家庭影院
+http://198.204.228.26/live/chcjt.m3u8
+#EXTINF:46,group-title="影视",风云剧场
+http://198.204.228.26/live/fyjc.m3u8
+#EXTINF:47,group-title="影视",风云足球
+http://198.204.228.26/live/fyzq.m3u8
+#EXTINF:48,group-title="影视",风云音乐
+http://198.204.228.26/live/fyyy.m3u8
+#EXTINF:49,group-title="影视",第一剧场
+http://198.204.228.26/live/dyjc.m3u8
+#EXTINF:50,group-title="影视",怀旧剧场
+http://198.204.228.26/live/hjjc.m3u8

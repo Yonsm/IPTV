@@ -15,7 +15,7 @@ IPTV 直播源、频道图标与 Nginx 转发配置。
 | 来源列表（Televe） | `https://yonsm.github.io/IPTV/lists.m3u8` | 2026-11-05 |
 | 公网频道 | `https://yonsm.github.io/IPTV/iptv.m3u8` | 2026-11-05 |
 
-地区源：[杭州](hangzhou/) · [江西](jiangxi/) · [上海](shanghai/) · [苏州](suzhou/)。不支持来源列表的播放器，请直接导入对应的频道列表。
+地区源：[杭州](hangzhou/) · [江西](jiangxi/) · [上海](shanghai/) · [苏州](suzhou/)；[在线源](online/)汇集公开直播地址及运营商网络来源，公共频道指向其中的快活直播。在线源最近一次连通性与台标扫描：2026-11-17，部分频道未能确认。不支持来源列表的播放器，请直接导入对应的频道列表。
 
 | 地区频道列表 | 最近更新 |
 | --- | --- |
