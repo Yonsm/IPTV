@@ -32,6 +32,8 @@ shanghai/telecom2.m3u8
 suzhou/mobile.m3u8
 #EXTINF:server-id="",苏州电信
 suzhou/telecom.m3u8
+#EXTINF:server-id="",无锡电信组
+wuxi/telecom2.m3u8
 #EXTINF:server-id="",北京电信组
 beijing/telecom2.m3u8
 #EXTINF:server-id="",北京联通组
