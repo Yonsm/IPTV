@@ -12,8 +12,11 @@ IPTV 直播源、频道图标与 Nginx 转发配置。源码托管于 [GitHub �
 
 | 类型 | 地址 | 最近更新 |
 | --- | --- | --- |
-| 来源列表（Televe） | `https://yonsm.github.io/IPTV/lists.m3u8` | 2026-11-19 |
+| 来源列表（M3U8） | `https://yonsm.github.io/IPTV/lists.m3u8` | 2026-11-19 |
+| 来源列表（TXT） | `https://yonsm.github.io/IPTV/lists.txt` | 2026-11-19 |
 | 公网频道 | `https://yonsm.github.io/IPTV/iptv.m3u8` | 2026-11-14 |
+
+`lists.m3u8` 与 `lists.txt` 收录相同的来源，前者为 M3U 格式，后者每行「名称,地址」；只支持 TXT/CSV 的播放器可直接导入 `lists.txt`，其中的相对地址按该文件的订阅地址解析。
 
 地区源：[杭州](hangzhou/) · [上海](shanghai/) · [江西](jiangxi/) · [北京](beijing/) · [广州](guangzhou/) · [南京](nanjing/) · [宁波](ningbo/) · [苏州](suzhou/) · [无锡](wuxi/) · [深圳](shenzhen/) · [成都](chengdu/)；[在线源](online/)汇集公开直播地址及运营商网络来源，公共频道指向其中的快活直播。在线源最近一次连通性与台标扫描：2026-11-17，部分频道未能确认。不支持来源列表的播放器，请直接导入对应的频道列表。组播列表统一以 `*2.m3u8` 命名，来源列表中的名称以「直播」「组播」结尾；组播需路由器转发或 udpxy。上海电信分单播与组播两份：`telecom.m3u8` 为单播回放地址，`telecom2.m3u8` 为组播地址，均需在上海电信 IPTV 网络中使用。
 
