@@ -20,9 +20,10 @@ IPTV 直播源、频道图标与 Nginx 转发配置。
 | 地区频道列表 | 最近更新 |
 | --- | --- |
 | [杭州联通](hangzhou/unicom.m3u8) | 2026-11-05 |
-| [江西移动](jiangxi/mobile.m3u8) | 2026-11-05 |
+| [江西移动](jiangxi/mobile.m3u8) | 2026-11-18 |
 | [杭州电信](hangzhou/telecom.m3u8)、[杭州移动](hangzhou/mobile.m3u8) | 2023-01-06 |
-| [江西电信](jiangxi/telecom.m3u8) | 2023-01-03 |
+| [江西电信](jiangxi/telecom.m3u8) | 2026-11-19 |
+| [江西联通](jiangxi/unicom.m3u8) | 2026-11-19 |
 | [上海联通](shanghai/unicom.m3u8) | 2026-11-12 |
 | [上海联通组](shanghai/unicom2.m3u8)（组播） | 2026-11-19 |
 | [上海移动](shanghai/mobile.m3u8) | 2026-11-19 |

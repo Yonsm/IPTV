@@ -10,6 +10,8 @@ hangzhou/mobile.m3u8
 jiangxi/mobile.m3u8
 #EXTINF:server-id="",江西电信
 jiangxi/telecom.m3u8
+#EXTINF:server-id="",江西联通
+jiangxi/unicom.m3u8
 #EXTINF:server-id="",上海联通
 shanghai/unicom.m3u8
 #EXTINF:server-id="",上海联通组
