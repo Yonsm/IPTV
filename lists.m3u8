@@ -2,8 +2,8 @@
 online/khzb.m3u8
 #EXTINF:server-id="",杭州联通
 hangzhou/unicom.m3u8
-#EXTINF:server-id="",杭州电信
-hangzhou/telecom.m3u8
+#EXTINF:server-id="",杭州电信组
+hangzhou/telecom2.m3u8
 #EXTINF:server-id="",杭州移动
 hangzhou/mobile.m3u8
 #EXTINF:server-id="",江西移动
