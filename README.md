@@ -12,10 +12,10 @@ IPTV 直播源、频道图标与 Nginx 转发配置。
 
 | 类型 | 地址 | 最近更新 |
 | --- | --- | --- |
-| 来源列表（Televe） | `https://yonsm.github.io/IPTV/lists.m3u8` | 2026-11-05 |
+| 来源列表（Televe） | `https://yonsm.github.io/IPTV/lists.m3u8` | 2026-11-19 |
 | 公网频道 | `https://yonsm.github.io/IPTV/iptv.m3u8` | 2026-11-05 |
 
-地区源：[杭州](hangzhou/) · [江西](jiangxi/) · [上海](shanghai/) · [苏州](suzhou/)；[在线源](online/)汇集公开直播地址及运营商网络来源，公共频道指向其中的快活直播。在线源最近一次连通性与台标扫描：2026-11-17，部分频道未能确认。不支持来源列表的播放器，请直接导入对应的频道列表。
+地区源：[杭州](hangzhou/) · [江西](jiangxi/) · [上海](shanghai/) · [苏州](suzhou/)；[在线源](online/)汇集公开直播地址及运营商网络来源，公共频道指向其中的快活直播。在线源最近一次连通性与台标扫描：2026-11-17，部分频道未能确认。不支持来源列表的播放器，请直接导入对应的频道列表。组播列表统一以 `*2.m3u8` 命名，来源列表中的名称以「组」结尾；组播需路由器转发或 udpxy。上海电信分单播与组播两份：`telecom.m3u8` 为单播回放地址，`telecom2.m3u8` 为组播地址，均需在上海电信 IPTV 网络中使用。
 
 | 地区频道列表 | 最近更新 |
 | --- | --- |
@@ -23,8 +23,12 @@ IPTV 直播源、频道图标与 Nginx 转发配置。
 | [江西移动](jiangxi/mobile.m3u8) | 2026-11-05 |
 | [杭州电信](hangzhou/telecom.m3u8)、[杭州移动](hangzhou/mobile.m3u8) | 2023-01-06 |
 | [江西电信](jiangxi/telecom.m3u8) | 2023-01-03 |
-| [上海联通](shanghai/unicom.m3u8) | 2022-11-19 |
-| [上海电信](shanghai/telecom.m3u8)、[苏州移动](suzhou/mobile.m3u8) | 2020-02-15 |
+| [上海联通](shanghai/unicom.m3u8) | 2026-11-12 |
+| [上海联通组](shanghai/unicom2.m3u8)（组播） | 2026-11-19 |
+| [上海移动](shanghai/mobile.m3u8) | 2026-11-19 |
+| [上海电信](shanghai/telecom.m3u8)（单播） | 2026-11-19 |
+| [上海电信组](shanghai/telecom2.m3u8)（组播） | 2026-11-19 |
+| [苏州移动](suzhou/mobile.m3u8) | 2020-02-15 |
 
 更新日期以各 M3U8 文件的最近 Git 提交为准，不代表频道可用性验证日期；后续变更可查看各文件的提交历史。
 
