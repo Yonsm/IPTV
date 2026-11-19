@@ -26,6 +26,12 @@ shanghai/telecom2.m3u8
 suzhou/mobile.m3u8
 #EXTINF:server-id="",苏州电信
 suzhou/telecom.m3u8
+#EXTINF:server-id="",南京电信组
+nanjing/telecom2.m3u8
+#EXTINF:server-id="",南京联通
+nanjing/unicom.m3u8
+#EXTINF:server-id="",南京移动
+nanjing/mobile.m3u8
 #EXTINF:server-id="",其它在线
 https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 #EXTINF:server-id="",北方视窗
