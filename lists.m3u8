@@ -32,6 +32,8 @@ beijing/telecom2.m3u8
 beijing/unicom2.m3u8
 #EXTINF:server-id="",北京移动组
 beijing/mobile2.m3u8
+#EXTINF:server-id="",深圳移动组
+shenzhen/mobile2.m3u8
 #EXTINF:server-id="",南京电信组
 nanjing/telecom2.m3u8
 #EXTINF:server-id="",南京联通
