@@ -6,6 +6,12 @@ hangzhou/unicom.m3u8
 hangzhou/telecom2.m3u8
 #EXTINF:server-id="",杭州移动
 hangzhou/mobile.m3u8
+#EXTINF:server-id="",宁波联通
+ningbo/unicom.m3u8
+#EXTINF:server-id="",宁波电信
+ningbo/telecom.m3u8
+#EXTINF:server-id="",宁波电信组
+ningbo/telecom2.m3u8
 #EXTINF:server-id="",江西移动
 jiangxi/mobile.m3u8
 #EXTINF:server-id="",江西电信
