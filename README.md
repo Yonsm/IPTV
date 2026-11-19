@@ -29,7 +29,8 @@ IPTV 直播源、频道图标与 Nginx 转发配置。
 | [上海移动](shanghai/mobile.m3u8) | 2026-11-19 |
 | [上海电信](shanghai/telecom.m3u8)（单播） | 2026-11-19 |
 | [上海电信组](shanghai/telecom2.m3u8)（组播） | 2026-11-19 |
-| [苏州移动](suzhou/mobile.m3u8) | 2020-02-15 |
+| [苏州移动](suzhou/mobile.m3u8) | 2026-11-19 |
+| [苏州电信](suzhou/telecom.m3u8) | 2026-11-19 |
 
 更新日期以各 M3U8 文件的最近 Git 提交为准，不代表频道可用性验证日期；后续变更可查看各文件的提交历史。
 
