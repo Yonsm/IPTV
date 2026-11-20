@@ -60,6 +60,8 @@ online/bfsc.m3u8
 online/dsdq.m3u8
 #EXTINF:server-id="",在线电视精选
 online/dsjx.m3u8
+#EXTINF:server-id="",在线公网精选
+online/gwjx.m3u8
 #EXTINF:server-id="",在线桂移电视
 online/gyds.m3u8
 #EXTINF:server-id="",在线晋电电视

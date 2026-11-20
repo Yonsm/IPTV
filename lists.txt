@@ -2,6 +2,7 @@
 在线北方视窗,online/bfsc.m3u8
 在线电视大全,online/dsdq.m3u8
 在线电视精选,online/dsjx.m3u8
+在线公网精选,online/gwjx.m3u8
 在线桂移电视,online/gyds.m3u8
 在线晋电电视,online/jdds.m3u8
 在线堪城电视,online/kcds.m3u8
