@@ -1,0 +1,23 @@
+README.md
+  s_8fa2f229bbd271::t_a0b14875e68ceb 15-16,21
+lists.m3u8
+  s_8fa2f229bbd271::t_9fd86b20327292 63-64
+lists.txt
+  s_8fa2f229bbd271::t_290e88c29d212e 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "fe12b15a6001fa767c9154983fd4dc02b99c7835",
+  "prompts": {},
+  "sessions": {
+    "s_8fa2f229bbd271": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f29a-fdd1-74e3-affa-8ccf6bbe3025",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "yixi.zyf <yixi.zyf@antgroup.com>"
+    }
+  }
+}
