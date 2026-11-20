@@ -2,8 +2,9 @@
 <html>
 
 	<head>
-		<title>数字电视</title>
+		<title>电视直播</title>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -13,32 +14,50 @@
 				document.getElementById('status').textContent = text
 			}
 
-			function parseOptions(text, options) {
-				options.length = 0
-				let title = null
-				for (let line of text.split(/\r?\n/)) {
-					line = line.trim()
-					if (/^#?EXTINF:/.test(line)) {
+			function resolve(value, base, dir) {
+				if (base.includes('{}') && !/^[a-z][a-z0-9+.-]*:\/\//i.test(value) && !value.startsWith('//')) {
+					let url = base.replace('{}', value)
+					return dir || value.endsWith('/') || !url.endsWith('/') ? url : url.slice(0, -1)
+				}
+				let template = value.includes('{}')
+				let url = new URL(template ? value.replace(/\{\}/g, '%7B%7D') : value, base).href
+				if (template) return url.replace(/%7B%7D/gi, '{}')
+				return dir && !value.startsWith('?') && !url.endsWith('/') ? url + '/' : url
+			}
+			async function parseList(text, base, depth = 0, doc = base) {
+				let items = [], title = null, prefix = base
+				for (let line of text.split(/\r?\n/).map(s => s.trim())) {
+					if (!line) continue
+					if (/^#?BASE:/i.test(line)) {
+						let value = line.substring(line.indexOf(':') + 1).trim()
+						if (value) try { prefix = resolve(value, doc, true) } catch (err) { console.warn('无效基准：' + value, err) }
+					} else if (/^#LOAD:/i.test(line)) {
+						let target = line.substring(6).trim()
+						if (target && depth < 2) try {
+							let url = new URL(target, doc).href
+							items.push(...await parseList(await fetchList(url), url, depth + 1, url))
+						} catch (err) {
+							console.warn('导入失败：' + target, err)
+						}
+					} else if (/^#?EXTINF:/i.test(line)) {
 						title = line.substring(line.lastIndexOf(',') + 1).trim()
-					} else if (line && !line.startsWith('#') && title !== null) {
-						options.add(new Option(title, line))
+					} else if (!line.startsWith('#')) {
+						if (title === null) {
+							let comma = line.indexOf(',')
+							if (comma > 0) [title, line] = [line.substring(0, comma).trim(), line.substring(comma + 1).trim()]
+						}
+						if (title && line && line !== '#genre#') {
+							try {
+								items.push({ title, url: resolve(line, prefix) })
+							} catch (err) {
+								console.warn('无效地址：' + line, err)
+							}
+						}
 						title = null
 					}
 				}
-				if (!options.length) throw new Error('播放列表为空')
+				return items
 			}
-
-			function parse(text) {
-				let options = document.getElementById('channel').options
-				parseOptions(text, options)
-				let lastChannel = Number(localStorage["lastChannel"])
-				if (Number.isInteger(lastChannel) && lastChannel >= 0 && lastChannel < options.length) {
-					options[lastChannel].selected = true
-				}
-
-				toggle()
-			}
-
 			function toggle() {
 				let channel = document.getElementById('channel')
 				let index = channel.selectedIndex
@@ -46,34 +65,36 @@
 				if (!option || channel.disabled) return
 				let url = option.value
 				console.log("切换频道 " + option.text + "：" + url)
-				localStorage["lastChannel"] = index
+				localStorage['lastChannel:' + document.getElementById('source').selectedIndex] = index
 				prep(url)
 			}
 
 			async function fetchList(uri) {
-				let response = await fetch(uri)
+				let response = await fetch(uri, { cache: 'no-store' })
 				if (!response.ok) throw new Error('加载失败: ' + response.status + ' ' + uri)
 				return response.text()
 			}
 
 			async function change() {
-				let source = document.getElementById('source')
-				let index = source.selectedIndex
+				let source = document.getElementById('source'), index = source.selectedIndex
 				if (index < 0 || source.disabled) return
 				if (hls) hls.stopLoad()
 				video.pause()
-				localStorage["lastSource"] = index
+				localStorage.lastSource = index
 				let uri = source.options[index].value
-				console.log("切换来源 " + uri)
 				let channel = document.getElementById('channel')
 				channel.disabled = true
 				channel.replaceChildren(new Option('加载中', ''))
 				status('加载中…')
 				try {
-					let text = await fetchList(uri)
+					let items = await parseList(await fetchList(uri), uri)
 					if (source.value !== uri) return
+					if (!items.length) throw new Error('播放列表为空')
+					channel.replaceChildren(...items.map(item => new Option(item.title, item.url)))
 					channel.disabled = false
-					parse(text)
+					let last = Number(localStorage['lastChannel:' + index])
+					if (Number.isInteger(last) && last >= 0 && last < items.length) channel.options[last].selected = true
+					toggle()
 				} catch (err) {
 					if (source.value !== uri) return
 					channel.disabled = true
@@ -82,16 +103,16 @@
 					console.error(err)
 				}
 			}
-
 			async function load() {
 				if (!init()) return
 				let source = document.getElementById('source')
 				try {
-					parseOptions(await fetchList('lists.m3u8'), source.options)
-					let index = Number(location.search ? location.search.substring(1) : localStorage["lastSource"])
-					if (Number.isInteger(index) && index >= 0 && index < source.options.length) {
-						source.selectedIndex = index
-					}
+					let url = new URL('lists.txt', location.href).href
+					let items = await parseList(await fetchList('lists.txt'), url)
+					if (!items.length) throw new Error('来源列表为空')
+					source.replaceChildren(...items.map(item => new Option(item.title, item.url)))
+					let index = Number(location.search ? location.search.substring(1) : localStorage.lastSource)
+					if (Number.isInteger(index) && index >= 0 && index < items.length) source.selectedIndex = index
 					source.disabled = false
 					await change()
 				} catch (err) {
@@ -100,7 +121,6 @@
 					console.error(err)
 				}
 			}
-
 			let hls = null, video = null, retries = 0
 			function init() {
 				video = document.getElementById('video')
@@ -116,7 +136,7 @@
 						console.error('播放错误:', data)
 						if (!data.fatal) return
 						if (retries++ >= 3) { status('播放失败，请切换频道或来源'); return }
-						if (data.type === Hls.ErrorTypes.NETWORK_ERROR) hls.loadSource(hls.url)
+						if (data.type === Hls.ErrorTypes.NETWORK_ERROR) { status('重试中…'); hls.loadSource(hls.url) }
 						else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) { hls.recoverMediaError(); play() }
 						else status('此频道无法播放')
 					})
@@ -155,6 +175,7 @@
 			}
 
 			function keydown(e) {
+				if (!/^(Enter|KeyM|KeyF|ArrowUp|ArrowDown)$/.test(e.code)) return
 				e.preventDefault()
 				if (e.code == 'Enter') {
 					if (video.muted)
@@ -192,8 +213,8 @@
 		</script>
 	</head>
 
-	<body onload="load()" onkeydown="keydown(event)" style="margin:0; background:black">
-		<video id="video" height="100%" width="100%" controls autoplay playsinline muted>
+	<body onload="load()" onkeydown="keydown(event)" style="margin:0; height:100vh; height:100dvh; display:flex; flex-direction:column; background:black">
+		<video id="video" controls autoplay playsinline muted style="flex:1; min-height:0; width:100%; object-fit:contain">
 		</video>
 		<center>
 			<select id="source" onchange="change()" disabled>
