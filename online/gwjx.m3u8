@@ -42,7 +42,7 @@ http://xch819.cn:7788/651632657
 #EXTINF:20 group-title="上海" tvg-name="五星体育",五星体育
 http://rd.gavinping.top:8188/rtp/238.200.200.131:5540/stream.ts
 #EXTINF:21 group-title="上海" tvg-name="东方卫视",东方卫视
-http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
+http://183.129.255.66:8480/hls/30/index.m3u8
 #EXTINF:22 group-title="上海" tvg-name="东方卫视4K",东方卫视4K
 https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:23 group-title="上海" tvg-name="东方影视",东方影视
