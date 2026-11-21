@@ -1,0 +1,19 @@
+shanghai/telecom-hls.m3u8
+  s_8fa2f229bbd271::t_99acfe503ae03e 1-430
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "1a6445624c7c5bad29664880b452c4d9f3cdd7f1",
+  "prompts": {},
+  "sessions": {
+    "s_8fa2f229bbd271": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f29a-fdd1-74e3-affa-8ccf6bbe3025",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "yixi.zyf <yixi.zyf@antgroup.com>"
+    }
+  }
+}
