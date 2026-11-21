@@ -1,0 +1,21 @@
+online/gwjx.m3u8
+  s_8fa2f229bbd271::t_eccb7879ae1fcb 431-433
+README.md
+  s_8fa2f229bbd271::t_eccb7879ae1fcb 56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "30d5fc8aa2d2a8f93e3635f4c65f3ad2dd9a1964",
+  "prompts": {},
+  "sessions": {
+    "s_8fa2f229bbd271": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f29a-fdd1-74e3-affa-8ccf6bbe3025",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "yixi.zyf <yixi.zyf@antgroup.com>"
+    }
+  }
+}
