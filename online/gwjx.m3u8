@@ -428,3 +428,6 @@ http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild
 http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild
 #EXTINF:203 group-title="黑龙江" tvg-name="哈尔滨生活",哈尔滨生活
 http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
+
+#EXTINF:204 group-title="上海" tvg-name="五星体育",五星体育
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=wxtyhd
